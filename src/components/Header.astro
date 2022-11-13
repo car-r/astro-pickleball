@@ -1,0 +1,18 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<header class=" py-3 sticky top-0 z-50 bg-white shadow-sm">
+	<!-- <h2>
+		{SITE_TITLE}
+	</h2> -->
+	<nav class="flex items-center justify-between max-w-4xl mx-auto text-sm md:text-base">
+		<div><a href="/" class="text-2xl font-bold  ml-2">{SITE_TITLE}</a></div>
+		<div class="flex gap-1 font-semibold">
+			<HeaderLink href="/blog" class="">Blog</HeaderLink>
+			<HeaderLink href="/about" class="">About</HeaderLink>
+			<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank" class="text-white hover:text-blue-400">Twitter</HeaderLink>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,40 @@
+---
+const {featuredPost, tag, pubDate, heroImage, title } = Astro.props
+// const { post } = Astro.props
+
+---
+
+<div class="py-6 px-6 rounded-lg my-6 bg-lime-400 overflow-hidden">
+    <div class="flex flex-col md:flex-row rounded-xl gap-2 ">
+        <a href={featuredPost.url} class=" md:-order-last md:w-3/5  md:mr-3 mb-3 md:mb-0 overflow-hidden rounded-md">
+            <img src={featuredPost.frontmatter.heroImage} class="rounded-md transition-all ease-in-out  hover:scale-125 "/>
+        </a>
+        <div class="flex flex-col md:w-2/5 overflow-hidden">
+            <a href={featuredPost.url} class="text-xl md:text-3xl font-bold hover:text-pink-400 mb-1">{featuredPost.frontmatter.title}</a>
+            <div class="flex gap-3 items-center pb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                </svg>
+                <div class="text-zinc-600 text-sm font-light">
+                    <time datetime={featuredPost.frontmatter.pubDate} class=" ">
+                        {new Date(featuredPost.frontmatter.pubDate).toLocaleDateString('en-us', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric',
+                        })}
+                    </time>
+                    <span class="text-xs">· {featuredPost.frontmatter.readTime} min read</span> 
+                </div>               
+            </div>
+            <div class="flex gap-2 mb-4">
+                {featuredPost.frontmatter.tags.map((tag: any) => (
+                    <p class="text-xs text-zinc-900 bg-pink-400 rounded-md py-1 px-3">{tag}</p>
+                ))}
+            </div>
+            <p class="text-sm font-light md:block text-zinc-900 mb-4 md:mb-2">{featuredPost.frontmatter.description}</p>
+            <div class="mt-auto">
+                <a href={featuredPost.url} class=" font-semibold underline underline-offset-2 hover:text-pink-400">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>

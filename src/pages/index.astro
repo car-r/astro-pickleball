@@ -1,0 +1,48 @@
+---
+import FeaturedPostCard from '../components/FeaturedPostCard.astro';
+import PostCard from '../components/PostCard.astro';
+import Layout from '../layouts/Layout.astro';
+
+const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
+    (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+
+const featuredPost = posts[0]
+---
+
+<Layout title="Welcome to Pickleballr">
+	<main class="mx-auto pb-20">
+        <section class="flex flex-col gap-2 px-4 py-20 text-center bg-pink-500">
+            <h1 class="text-5xl md:text-6xl font-bold">Pickleball<span class="text-lime-400">r</span>.</h1>
+            <p>Your source for everything Pickleball</p>
+            <div class="flex mx-auto">
+                <a
+                    href="/blog"
+                    class="px-3 py-1 bg-lime-400 border-2 border-lime-400 rounded-lg hover:bg-transparent font-semibold cursor-pointer">
+                    Read the blog
+                </a>
+            </div>
+            
+            <!-- <div class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 ">
+                <p class="text-zinc-900 text-lg md:text-xl">Sign up for the Pickleballr newsletter</p>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input class="px-2 border  border-zinc-900" type="text" placeholder="enter your email">
+                    <button class=" px-4 py-1 font-bold bg-lime-500  text-lime-900 hover:bg-lime-600 hover:text-white">Submit</button>
+                </div>
+            </div> -->
+        </section>
+        <section class="mx-auto px-4 py-20 max-w-6xl">
+            <h2 class="text-3xl uppercase font-semibold">Featured Post</h2>
+            <FeaturedPostCard featuredPost={featuredPost} />
+            <div class="py-10">
+                <h2 class="text-2xl uppercase font-semibold py-6">Trending posts</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {posts.map((post) => (
+                        <PostCard post={post}/>
+                    ))}
+                </div>
+            </div>
+            
+        </section>
+	</main>
+</Layout>
