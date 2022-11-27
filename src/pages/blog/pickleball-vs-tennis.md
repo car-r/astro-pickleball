@@ -3,8 +3,9 @@ layout: '../../layouts/BlogPostLayout.astro'
 title: "Pickleball vs Tennis"
 description: "The three biggest differences between pickleball and tennis."
 pubDate: "Nov 4 2022"
-heroImage: "/images/placeholder-hero.jpg"
+heroImage: "/images/pickleball-vs-tennis.jpg"
 featured: true
+trending: true
 readTime: '4'
 tags: 
   - "pickleball"

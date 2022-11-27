@@ -8,17 +8,21 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 );
 
 const featuredPost = posts[0]
+
+const trendingPosts = posts.filter(post => post.frontmatter.trending === true)
+
+const recentPosts = posts.filter(post => post.frontmatter.trending != true)
 ---
 
 <Layout title="Welcome to Pickleballr">
 	<main class="mx-auto pb-20">
         <section class="flex flex-col gap-2 px-4 py-20 text-center bg-pink-500">
-            <h1 class="text-5xl md:text-6xl font-bold">Pickleball<span class="text-lime-400">r</span>.</h1>
+            <h1 class="text-5xl md:text-6xl font-bold text-zinc-50">Pickleball<span class="text-lime-400">r</span>.</h1>
             <p>Your source for everything Pickleball</p>
             <div class="flex mx-auto">
                 <a
                     href="/blog"
-                    class="px-3 py-1 bg-lime-400 border-2 border-lime-400 rounded-lg hover:bg-transparent font-semibold cursor-pointer">
+                    class="px-3 py-1 bg-lime-400 border-2 border-lime-400 rounded-lg hover:bg-transparent font-semibold cursor-pointer hover:text-zinc-50 transition-all ease-in-out">
                     Read the blog
                 </a>
             </div>
@@ -37,7 +41,15 @@ const featuredPost = posts[0]
             <div class="py-10">
                 <h2 class="text-2xl uppercase font-semibold py-6">Trending posts</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    {posts.map((post) => (
+                    {trendingPosts.map((post) => (
+                        <PostCard post={post}/>
+                    ))}
+                </div>
+            </div>
+            <div class="py-10">
+                <h2 class="text-2xl uppercase font-semibold py-6">Recent posts</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {recentPosts.map((post) => (
                         <PostCard post={post}/>
                     ))}
                 </div>

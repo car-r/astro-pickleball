@@ -22,6 +22,6 @@ const isActive = href === Astro.url.pathname.replace(/\/$/, '');
 	}
 </style> -->
 
-<a href={href} class={`py-1 px-4 ${isActive ? ' bg-lime-200 rounded-lg' : ''}`} {...props}>
+<a href={href} class={`py-1 px-4 ${isActive ? ' bg-lime-400 text-zinc-900 rounded-lg' : ''}`} {...props}>
 	<slot />
 </a>

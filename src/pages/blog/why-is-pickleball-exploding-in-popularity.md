@@ -3,8 +3,9 @@ layout: '../../layouts/BlogPostLayout.astro'
 title: "Why is pickleball exploding in popularity?"
 description: "Five reasons why pickleball is becoming so popular and why it's so addicting."
 pubDate: "Nov 6 2022"
-heroImage: "/images/placeholder-hero.jpg"
+heroImage: "/images/pickleball is exploding in popularity.jpg"
 featured: true
+trending: true
 readTime: '4'
 tags: 
   - "pickleball"

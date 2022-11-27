@@ -1,0 +1,24 @@
+---
+import Container from "../layouts/Container.astro";
+import Layout from "../layouts/Layout.astro"
+---
+
+
+
+<Layout title="About">
+    <Container>
+        <div class="pt-20 py-10">
+            <h1 class="text-5xl md:text-6xl font-bold text-center ">About Pickleball<span class="text-lime-400">r</span>.</h1>
+            <div class="pt-10">
+                <img src={`./images/placeholder-hero.jpg`} class="object-contain w-full "/>
+            </div>
+        </div>
+        <section>
+            <div class="text-base md:text-xl">
+                <p>Pickleballr is your source for everything pickleball. This site offers tips on how to play the game, as well as reviews of pickleball products. 
+                    Whether you are a beginner or an experienced player, the Pickleballr blog has something for you.
+                </p>
+            </div>
+        </section>
+    </Container>
+</Layout>

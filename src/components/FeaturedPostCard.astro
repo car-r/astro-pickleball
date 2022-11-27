@@ -7,7 +7,7 @@ const {featuredPost, tag, pubDate, heroImage, title } = Astro.props
 <div class="py-6 px-6 rounded-lg my-6 bg-lime-400 overflow-hidden">
     <div class="flex flex-col md:flex-row rounded-xl gap-2 ">
         <a href={featuredPost.url} class=" md:-order-last md:w-3/5  md:mr-3 mb-3 md:mb-0 overflow-hidden rounded-md">
-            <img src={featuredPost.frontmatter.heroImage} class="rounded-md transition-all ease-in-out  hover:scale-125 "/>
+            <img src={featuredPost.frontmatter.heroImage} class="rounded-md transition-all ease-in-out  hover:scale-110 "/>
         </a>
         <div class="flex flex-col md:w-2/5 overflow-hidden">
             <a href={featuredPost.url} class="text-xl md:text-3xl font-bold hover:text-pink-400 mb-1">{featuredPost.frontmatter.title}</a>

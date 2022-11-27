@@ -2,15 +2,17 @@
 layout: '../../layouts/BlogPostLayout.astro'
 title: "Everything You Need To Know About Pickleball Rules"
 description: "Pickleball borrows rules from different racquet sports and creates new ones to make this such a unique game to play."
-pubDate: "Nov 6 2022"
-heroImage: "/images/placeholder-hero.jpg"
+pubDate: "Nov 16 2022"
+heroImage: "/images/pickleball rules you need to know.jpg"
 featured: true
-readTime: '5'
+trending: true
+readTime: '8'
 tags: 
   - "rules"
+  - "pickleball"
 ---
 
-Do you love playing racquet sports? If so, you'll love pickleball! Pickleball is a unique sport that borrows rules from different racquet sports and creates new ones to make the game more competitive. The sport is played with two or four players using paddles, a plastic ball and a net. The basic premise of the game is to hit a ball over a net and make your opponent miss. There are many different shots that can be used in pickleball, making the game interesting for both beginners and experts alike. In this blog post, we will discuss the different rules of pickleball and how you can start playing today!
+Do you love playing racquet sports? If so, you'll love pickleball! Pickleball is a unique sport that borrows rules from different racquet sports and creates new ones to make the game challenging, yet fun. The sport is played with two or four players using paddles, a plastic ball and a net. The basic premise of the game is to hit a ball over a net and make your opponent miss. There are many different shots that can be used in pickleball, making the game interesting for both beginners and experts alike. In this blog post, we will discuss the different rules of pickleball and how you can start playing today!
 
 
 ## Rules Unique to Pickleball
@@ -18,6 +20,8 @@ Do you love playing racquet sports? If so, you'll love pickleball! Pickleball is
 A few pickleball rules will be familiar since many of them are borrowed from other racquet sports. The rules unique to pickleball is what makes it a different and interesting game to play. 
 
 ### The Kitchen
+
+<img src="https://usapickleball.org/wp-content/uploads/2020/06/PickleballCourtGraphic.png">
 
 The Non-Volley Zone, often referred to as "the kitchen" is the biggest differentiator from other racquet sports. As the name implies, the non-volley zone is a 7 ft area on each side of the net where players can't hit the ball out of the air. It starts at the net and ends at the service boxes, taking up the middle of the court. Players typically stand behind this line so that they ARE allowed to volley the ball out of the air. 
 
@@ -45,6 +49,10 @@ A drop serve has also been fully added to the rules in 2023. While the drop serv
 
 ### Keeping Score While Serving
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XIYjGLZgxjA/0.jpg)](http://www.youtube.com/watch?v=XIYjGLZgxjA "Video Title")
+
+<!-- <iframe width="530" height="315" id="#responsive-iframe" src="https://www.youtube.com/embed/XIYjGLZgxjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="position-absolute"></iframe> -->
+
 The first thing to know about keeping score in pickleball is that only the serving team can score points. This is different from tennis where the player who isn't serving can win points, games, sets, or even the match.
 
 The serving team must serve diagonally to the player across from them and then let the returning shot bounce on their side before hitting the next shot. If the serving team wins the point, the server then switches sides with their teammate and serves to diagonally to the other side. If the serving team would have lost the point, their teammate would then serve from the same side they were standing on without switching. This continues until both teammates have lost a point while serving.
@@ -63,7 +71,42 @@ Players on the pickleball court are responsible for making line calls and determ
 
 Line calls can be a touchy subject on the court, especially if you're playing in a tournament or with very competitive players. It's important to make sure that you don't call a ball out if you're not 100% sure it landed out. Just like you might be watching a group of people playing and get surprised when one of them makes a bad call, chances are you've made a bad call once or twice. Prompt line calls are also something to be considered. Waiting too long to make a call in or out casts doubt in your call and should called in. If you ask the opponent their opinion on a line call that your team should have made, you give up your right to call the ball in or out.
 
+## Faults
+
+Faults in pickleball result in a dead ball that ends the point. These can happen for a number of different reasons and must be called out by players on the court as soon as they happen.
+
+### Faults on the Serve
+
+If the serving team does not let the return bounce prior to hitting, the returning team wins the point.
+
+If the serve hits an opponent whether on their body or any piece of their clothing, this is a fault and results in the serving team winning the point. This is also the case if the opponent is hit by the ball before it bounces, even if it was going to land out.
+
+Stepping over the baseline while serving would cause a dead ball and result in the serving team losing the point.
+
+Illegal serves or serves that break the rules would result in the serving team losing the point. This is more difficult to judge in a recreation game and a referee would typically make this call during a tournament. If a player believes their opponent is using an illegal serve, they should let the referee know so that they can make it a point to keep an eye on the serve and properly review it.
+
+### Non-Volley Zone Faults
+
+The majority of faults will happen around the Non-Volley Zone. Since players typically have their eye on the ball, they may not be aware of where they are standing when they make contact with the ball. If a player notices their opponent stepped into the kitchen while hitting a volley, it is their responsibility to call a fault. In recreational games, it is easier to be more lenient with this rule, but for competitive matches or tournaments its important that this rule is taken seriously.
+
+Faults can also be called if any part of the player, including their paddle or clothing, touches the Non-Volley Zone. This can be during the swing, during the follow-through, or momentum from hitting the ball. Players also cannot stand in the kitchen, jump to hit a volley, and then finally land outside of the volley zone. 
+
+Players may also not reach over the net before hitting the ball or touch the net while the ball is still in play. There is one exception to being able to cross over the net. If an opponent hits the ball with enough backspin to bring the ball back onto their side of the court after landing, a player can reach over the net and hit the ball. When this happens, the player is still not allowed to touch the net or the opponents side of the court while the ball is still in play. 
+
+## Other Pickleball Rules to Remember
+
+Not that there aren't already so many rules to keep in mind while player, there are also so one-off rules that are important to remember while playing.
+
+Double hits can and do happen during pickleball. These are defined as the ball being hit twice during a swing by one player and must be unintentional and continuous. If this happens during the point, nothing needs to be said or called out and the point simply continues.
+
+Players are also allowed to switch hands from say right hand to left hand in order to reach for a ball and make a shot. Ambidextrous players will take advantage of this as it may be easier to switch hands than to hit a backhand in certain circumstances. Two-handed backhands or forehands are also allowed.
+
+Its also important to remember that missed shots are allowed. If one player swings and does not make any contact with the ball, that ball is still in play and can be hit before it bounces twice. This happens more in doubles than it does in singles.
+
+A pickleball can also break during the point. If this happens, play continues until the point is over. Players must then address the broken ball before the next serve in order to bring a new ball into play. If this happens during a tournament, players must appeal to the referee to confirm whether or not the ball is cracked or broken.
+
+
 ## Conclusion
 
-Pickleball 
+Pickleball rules can take time to get used to. Since they are a combination of rules from different racquet sports, it can be easy to forget which ones apply. The majority of the difficult rules to remember are the ones relating to the Non-Volley Zone and the types of shots you're not allowed to hit. After playing pickleball a few times, the rules start to make sense, are easy to remember, and make the game exciting and enjoyable!
 

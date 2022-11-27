@@ -3,12 +3,12 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../config';
 ---
 
-<header class=" py-3 sticky top-0 z-50 bg-white shadow-sm">
+<header class=" py-3 sticky top-0 z-50 bg-zinc-900 text-zinc-50 shadow-sm">
 	<!-- <h2>
 		{SITE_TITLE}
 	</h2> -->
 	<nav class="flex items-center justify-between max-w-4xl mx-auto text-sm md:text-base">
-		<div><a href="/" class="text-2xl font-bold  ml-2">{SITE_TITLE}</a></div>
+		<div><a href="/" class="text-2xl font-bold  ml-2">Pickleball<span class="text-lime-400">r</span>.</a></div>
 		<div class="flex gap-1 font-semibold">
 			<HeaderLink href="/blog" class="">Blog</HeaderLink>
 			<HeaderLink href="/about" class="">About</HeaderLink>

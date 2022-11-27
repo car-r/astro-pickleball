@@ -3,7 +3,7 @@ layout: '../../layouts/BlogPostLayout.astro'
 title: "What is pickleball?"
 description: "An overview about pickleball."
 pubDate: "Nov 5 2022"
-heroImage: "/images/placeholder-hero.jpg"
+heroImage: "/images/what-is-pickleball.jpg"
 featured: false
 readTime: '4' 
 tags: 
