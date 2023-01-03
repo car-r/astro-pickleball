@@ -31,7 +31,7 @@ const {featuredPost, tag, pubDate, heroImage, title } = Astro.props
                     <p class="text-xs text-zinc-900 bg-pink-400 rounded-md py-1 px-3">{tag}</p>
                 ))}
             </div>
-            <p class="text-sm font-light md:block text-zinc-900 mb-4 md:mb-2">{featuredPost.frontmatter.description}</p>
+            <p class="text-sm font-base md:block text-zinc-900 mb-4 md:mb-2">{featuredPost.frontmatter.description}</p>
             <div class="mt-auto">
                 <a href={featuredPost.url} class=" font-semibold underline underline-offset-2 hover:text-pink-400">Read more</a>
             </div>
