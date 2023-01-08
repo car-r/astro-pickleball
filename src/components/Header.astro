@@ -1,18 +1,30 @@
 ---
 import HeaderLink from './HeaderLink.astro';
+import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems } from "astro-navbar";
 import { SITE_TITLE } from '../config';
 ---
-
-<header class=" py-3 sticky top-0 z-50 bg-zinc-900 text-zinc-50 shadow-sm">
-	<!-- <h2>
-		{SITE_TITLE}
-	</h2> -->
-	<nav class="flex items-center justify-between max-w-4xl mx-auto text-sm md:text-base">
-		<div><a href="/" class="text-2xl font-bold  ml-2">Pickleball<span class="text-lime-400">r</span>.</a></div>
-		<div class="flex gap-1 font-semibold">
-			<HeaderLink href="/blog" class="">Blog</HeaderLink>
-			<HeaderLink href="/about" class="">About</HeaderLink>
-			<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank" class="text-white hover:text-blue-400">Twitter</HeaderLink>
+<Astronav>
+	<header class="py-3 sticky top-0 z-50 bg-zinc-900 text-zinc-50 shadow-sm">
+		<!-- <h2>
+			{SITE_TITLE}
+		</h2> -->
+		<nav class="hidden md:flex items-center justify-between max-w-4xl mx-auto text-sm md:text-base">
+			<div><a href="/" class="text-2xl font-bold  ml-2">Pickleball<span class="text-lime-400">r</span>.</a></div>
+			<div class="flex gap-1 font-semibold">
+				<HeaderLink href="/blog" class="">Blog</HeaderLink>
+				<HeaderLink href="/about" class="">About</HeaderLink>
+				<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank" class="text-white hover:text-blue-400">Twitter</HeaderLink>
+			</div>
+		</nav>
+		<div class="md:hidden flex justify-between px-4">
+			<div><a href="/" class="text-2xl font-bold  ml-2">Pickleball<span class="text-lime-400">r</span>.</a></div>
+			<MenuIcon class="w-6 h-6 text-zinc-50" />
 		</div>
-	</nav>
-</header>
+		<MenuItems class="hidden pt-4 w-48">
+			<ul class="flex flex-col gap-2 px-6">
+				<HeaderLink href="/blog" class="">Blog</HeaderLink>
+				<HeaderLink href="/about" class="">About</HeaderLink>
+			</ul>
+		</MenuItems>
+	</header>
+</Astronav>
