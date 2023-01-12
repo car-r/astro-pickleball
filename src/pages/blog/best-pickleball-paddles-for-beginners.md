@@ -5,6 +5,7 @@ description: "Top five pickleball paddles for beginners."
 pubDate: "Nov 2 2022"
 heroImage: "/images/placeholder-hero.jpg"
 featured: true
+draft: true
 tags: 
   - "equipment"
   - "review"

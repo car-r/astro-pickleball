@@ -5,6 +5,7 @@ description: "Three ways to hit a backhand in pickleball"
 pubDate: "Nov 5 2022"
 heroImage: "/images/placeholder-hero.jpg"
 featured: true
+draft: true
 tags: 
   - "pickleball"
   - "backhand"
