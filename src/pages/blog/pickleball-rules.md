@@ -3,7 +3,7 @@ layout: '../../layouts/BlogPostLayout.astro'
 title: "Everything You Need To Know About Pickleball Rules"
 description: "Pickleball borrows rules from different racquet sports and creates new ones to make this such a unique game to play."
 pubDate: "Nov 16 2022"
-heroImage: "/images/pickleball rules you need to know.jpg"
+heroImage: "/images/pickleball-rules-you-need-to-know.jpg"
 featured: true
 trending: true
 readTime: '8'

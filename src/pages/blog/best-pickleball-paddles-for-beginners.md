@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
 title: "Best pickleball paddles for beginners"
-description: "Top five pickleball paddles for beginners."
+description: "Top-five-pickleball-paddles-for-beginners."
 pubDate: "Nov 2 2022"
 heroImage: "/images/placeholder-hero.jpg"
 featured: true
