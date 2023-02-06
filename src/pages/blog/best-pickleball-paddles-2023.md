@@ -26,10 +26,13 @@ Are you in the market for a new pickleball paddle? If so, you're in luck! This b
 
 ## Best Budget Pickleball Paddle
 ### Selkirk SLK Evo Hybrid Max
+[![Selkirk SLK Evo Hybrid Max](/images/selkirk-evo-hybrid-max.jpg)](https://slkpickleball.com/products/slk-evo-hybrid-max)
 
 The best budget pickleball paddle is the SLK Evo Hybrid Max. We consider budget paddles to be anything under $100, although there are times when a great paddle above $100 is a good deal. With that being said, budget paddles are geared more towards beginners and intermediate players who are looking to upgrade from a paddle that comes in a set. This paddle would be a step up from your entry level paddle that comes included in a kit from your local sporting good store.
 
 The SLK Evo Hybrid Max is a step up from your entry level paddle from Selkirk and other pickleball brands. This paddle offers a large sweet spot thanks to the Flex Power fiberglass face which makes it extremely forgiving. The weight is also on the lighter side coming in between 7.6-8oz which can allow for quicker hands at the net. 
+
+One of the biggest benefits to this paddle is the elongated handle. The grip length measures in at 4.85 inches, making it very comfortable to hit groundstrokes with. Players can get more leverage on a topspin forehand since they can extend their index finger without putting it on the backside of the paddle. The grip also has plenty of room fit both hands on the grip for a two handed backhand.
 
 ## Best Overall Pickleball Paddle
 ### JOOLA Vision CGS 16 Pickleball Paddle
@@ -70,11 +73,12 @@ Aerodynamics comes in to play thanks to the Aero-curve design which features a u
 The average weight of the paddle is 8.4oz and 16 inches in length. the core measures in at 14mm providing the additional pop that power players are looking for.
 
 ## Best Pickleball Paddle for Intermediate Players
-### Selkirk SLK Halo Control
+### Selkirk SLK Halo XL Power
+[![Selkirk SLK Halo XL Power](/images/selkirk-halo-xl-power.jpg)](https://www.selkirk.com/products/slk-halo?variant=39964829188198)
 
-The best pickleball paddle for intermediate players is the Selkirk SLK Halo Control. We picked the this paddle because it offers a blend of power and control but focuses more on control at a reasonable price. Intermediate players would be better off having additional touch and feel to keep more balls in the court.
+The best pickleball paddle for intermediate players is the Selkirk SLK Halo XL Power. We picked the this paddle because it offers a blend of power and control at reasonable price. Intermediate players would benefit from the elongated handle to produce heavy topspin on both the forhand and backhand side. The grip length of 5.75 inches is plenty of room to fit both hands on the paddle for a nice two handed backhand. We found that the power version didn't have that much more power than the control and might be better for an intermediate player.
 
-Max and XL versions of the SLK Halo are available depending upon your needs. The Max features a larger paddle shape and increase sweetspot while the XL has an elongated shape and a longer handle. The paddle is 16mm thick and features T700 carbon fiber with Raw Spin Technology to provide additional control and spin. Weights range from 7.6 - 8.2oz with a maximum length of 16.4 inches for the XL version. 
+Max and XL versions of the SLK Halo are available depending upon your needs. The Max features a larger paddle shape and increase sweetspot while the XL has an elongated shape and a longer handle. The paddle is 13mm thick and features T700 carbon fiber with Raw Spin Technology to provide additional control and spin. Weights range from 7.6 - 8.2oz with a maximum length of 16.4 inches for the XL version. 
 
-There is also a Power version of this paddle which features a 13mm thickness for additional pop and also comes in an XL version.
+There is also a Control version of this paddle which is slightly thicker and also comes in an XL version.
 
