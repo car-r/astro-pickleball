@@ -16,13 +16,25 @@ Are you in the market for a new pickleball paddle? If so, you're in luck! This b
 
 ## Our Top Pickleball Paddle Picks for 2023
 
-- **Best Overall Pickleball Paddle:** <a target="_blank" href="https://joolausa.com/vision-cgs-16mm-pickleball-paddle/">JOOLA Vision CGS 16 Pickleball Paddle</a>
+- **Best Overall Pickleball Paddle:** <a target="_blank" href="https://joolausa.com/ben-johns-hyperion-cfs-16-swift-pickleball-paddle/">JOOLA Hyperion CFS 16 Swift Pickleball Paddle</a>
 - **Best Budget Pickleball Paddle:** <a target="_blank" href="https://www.amazon.com/Selkirk-Sport-Pickleball-Featuring-Fiberglass/dp/B09K3842HH/ref=sr_1_1_sspa?crid=2T24RXAGF0WG5&keywords=selkirk%2Bpickleball%2Bpaddle&qid=1673219175&sprefix=selk%2Caps%2C153&sr=8-1-spons&smid=A2G9X79W0SH4HA&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOUpCWFdPMUU5OUpJJmVuY3J5cHRlZElkPUEwMjc1NzgyMjdWRFQ5ME5CSllLWCZlbmNyeXB0ZWRBZElkPUEwNjgxODkzQTIxQVpFWVdCTjYmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1">Selkirk SLK Evo Hybrid Max</a>
 - **Best Pickleball Paddle for Spin:** <a target="_blank" href="https://www.selkirk.com/products/vanguard-air-invikta?variant=39774039375974">Selkirk Vangaurd Power Air Invikta</a>
-- **Best Pickleball Paddle for Power:** <a target="_blank" href="https://joolausa.com/solaire-cfs-14mm-pickleball-paddle/">JOOLA Solaire CFS 14 Pickleball Paddle</a>
+- **Best Pickleball Paddle for Power:** <a target="_blank" href="https://joolausa.com/solaire-cfs-14-swift-pickleball-paddle/">JOOLA Solaire CFS 14 Swift Pickleball Paddle</a>
 - **Best Pickleball Paddle for Beginners:** <a target="_blank" href="https://www.head.com/en_US/radical-elite-226032.html">HEAD Radical Elite Pickleball Paddle</a>
-- **Best Pickleball Paddle for Intermediate Players:** <a target="_blank" href="https://pickleballeffect.com/product/slk-halo-control-max/">Selkirk SLK Halo Control Max</a>
+- **Best Pickleball Paddle for Intermediate Players:** <a target="_blank" href="https://www.selkirk.com/products/slk-halo?_pos=1&_sid=23de3ad54&_ss=r&variant=39964829188198">Selkirk SLK Halo XL Power</a>
 
+
+## Best Overall Pickleball Paddle
+### JOOLA Hyperion CFS 16 Swift Pickleball Paddle
+[![JOOLA Hyperion CFS 16 Swift Pickleball Paddle](/images/joola-hyperion-cfs-16-swift.jpg)](https://joolausa.com/ben-johns-hyperion-cfs-16-swift-pickleball-paddle/)
+
+The JOOLA Hyperion CFS 16 Swift is our pick for the best overall pickleball paddle. JOOLA is a trusted name in the pickleball space and is used by some of the top players in the sport. The JOOLA Hyperion CGS 16 Swift is an excellent blend of price and performance which brings it to the top of the overall list.
+
+The Hyperion CFS 16 Swift features an Aero-Curve design for less drag through the air to help increase overall swing speed. The swift model comes with upgraded materials to help create a lighter and faster swinging paddle. It also features an edge guard which is different from the edgeless design that is becoming popular with other paddles. The Hyper-Foam edge Wall features a special foam is also injected around the edge of the paddle to increase the size of the sweetspot and adding weight to keep the paddle balanced.
+
+The Carbon Friction Surface (CFS) helps players get additional spin for topspin and slice shots. Some reviewers have said that the grip surfact on the paddle only lasts a few months, but this will be different for each player and depend upon how often you play and how aggressive you hit the ball. The Sure-Grip Elongated Handle comes in handy for a two-handed backhand and feels extremely comfortable in your hand.
+
+Average paddle weight comes in at a light 7.9oz, which makes for great maneuverability at the net. The Response Honeycomb Polymer Core provides a large sweetspot and feedback while the 16mm thickness helps with touch and control. 
 
 ## Best Budget Pickleball Paddle
 ### Selkirk SLK Evo Hybrid Max
@@ -34,16 +46,26 @@ The SLK Evo Hybrid Max is a step up from your entry level paddle from Selkirk an
 
 One of the biggest benefits to this paddle is the elongated handle. The grip length measures in at 4.85 inches, making it very comfortable to hit groundstrokes with. Players can get more leverage on a topspin forehand since they can extend their index finger without putting it on the backside of the paddle. The grip also has plenty of room fit both hands on the grip for a two handed backhand.
 
-## Best Overall Pickleball Paddle
-### JOOLA Vision CGS 16 Pickleball Paddle
-[![JOOLA Vision CGS 16 Pickleball Paddle](/images/joola-vision-cgs-16.jpg)](https://joolausa.com/vision-cgs-16mm-pickleball-paddle/)
+## Best Pickleball Paddle for Spin
+### Selkirk Vanguard Power Air Invikta
+[![JOOLA Solaire CFS 14 Swift](/images/selkirk-power-air-invikta.jpg)](https://www.selkirk.com/products/vanguard-air-invikta?variant=39774039375974)
 
-The JOOLA Vision CGS 16 is our pick for the best overall pickleball paddle. JOOLA is a trusted name in the pickleball space and is used by some of the top players in the sport. The JOOLA Vision CGS 16 is an excellent blend of price and performance which brings it to the top of the overall list.
+The best pickleball paddle for spin is the Selkirk Vanguard Power Air Invikta. Power and control are handled by the Quadflex 4 layer hybrid face and ProSpin+ Texture that helps to generate additional spin without wearing off after a month of use. The SuperCore Polymer Honeycomb Core offers a consistent feel during play. This is also a power paddle for someone looking to hit big shots and attack.
 
-The Vision CGS 16 features an Aero-Curve design for less drag through the air to help increase overall swing speed. It also features an edge guard which is different from the edgeless design that is becoming popular with other paddles. The Carbon Grip Surface (CGS) helps players get additional spin for topspin and slice shots. Some reviewers have said that the grip surfact on the paddle only lasts a few months, but this will be different for each player.
+While the Vanguard Power Air Invitka is relatively expensive, it also has a number of unique features. The edgeless aerodynamic design includes an air dynamic throat with throat-flex for additional power and a flexfoam perimeter for more durability and a generous sweet spot. Some players don't care for the hole in the throat area, especially if you find your index finger wandering to the back of the paddle.
 
-Average paddle weight comes in at a light 7.8oz, which makes for great maneuverability at the net. The Response Honeycomb Polymer Core provides a large sweetspot and feedback while the 16mm thickness helps with touch and control. The price of the paddle is currently under $200 which also makes it a relatively budget friendly paddle.
+Weight comes in between 7.7 - 8.1 oz and overall length of 16 1/2" with the elongated design and paddle. The Vanguard Power Air Invikta might be better for more advanced or intermediate players as the power can be difficult to control. This might also make for a great paddle for  tennis players who are picking up pickleball and already have decent touch and feel. 
 
+
+## Best Pickleball Paddle for Power
+### JOOLA Solaire CFS 14 Swift
+[![JOOLA Solaire CFS 14 Swift](/images/joola-solaire-cfs-14-swift.jpg)](https://joolausa.com/solaire-cfs-14-swift-pickleball-paddle/)
+
+The best pickleball paddle for power is the JOOLA Solaire CFS 14 Swift Pickleball Paddle. It features a Carbon Friction Surface (CFS) and a Reactive Honeycomb Polymer core to produce both power and spin. The CX Forged Handle is carbon-forged to give added flex for comfort and power, while the sure-grip elongated handle increases shock absorption and makes two-handed backhands a breeze.
+
+Aerodynamics comes in to play thanks to the Aero-curve design which features a unique curvature that has less drag through the air and helps increase swing speed. The sweet spot is increased by the Hyperfoam edge wall which adds additional weight and stability where it is needed most.
+
+The average weight of the paddle is 7.7oz and 16 inches in length. the core measures in at 14mm providing the additional pop that power players are looking for. The paddle is also wider than other Joola models like the Hyperion series, and can give the appearance of a shorter paddle. There is also a non Swift paddle option that weighs in at 8.4oz but at the same price the swift may be worth jumping for given its lighter weight and similar playability.
 ## Best Pickleball Paddle for Beginners
 ### HEAD RADICAL ELITE
 
@@ -54,23 +76,6 @@ The best pickleball paddle for beginners is the HEAD Radical Elite. Head is a po
 
 The paddle features Head's Composite Hitting Surface (CHS) with an Extended Powercore to maximize power while also offering a softer feel for more touch. It also has a large and forgiving sweetspot thanks to the Dynamic Power Shape. The Ergo Grip has a foam handle for more comfort and feel while playing. The paddle is 8.1 oz and 16 inches long
 
-## Best Pickleball Paddle for Spin
-### Selkirk Vanguard Power Air Invikta
-
-The best pickleball paddle for spin is the Selkirk Vanguard Power Air Invikta. Power and control are handled by the Quadflex 4 layer hybrid face and ProSpin+ Texture that helps to generate additional spin without wearing off after a month of use. The SuperCore Polymer Honeycomb Core offers a consistent feel during play.
-
-While the Vanguard Power Air Invitka is relatively expensive, it also has a number of unique features. The edgeless aerodynamic design includes an air dynamic throat with throat-flex for additional power and a flexfoam perimeter for more durability and a larger sweet spot.
-
-Weight comes in between 7.7 - 8.1 oz and overall length of 16 1/2" with the elongated design and paddle. The Vanguard Power Air Invikta as also a great paddle for tennis players who are picking up pickleball. 
-
-## Best Pickleball Paddle for Power
-### JOOLA Solaire CFS 14
-
-The best pickleball paddle for power is the JOOLA Solaire CFS 14 Pickleball Paddle. It features a Carbon Friction Surface (CFS) and a Reactive Honeycomb Polymer core to produce both power and spin. The CX Forged Handle is carbon-forged to give added flex for comfort and power, while the sure-grip elongated handle increases shock absorption and makes two-handed backhands a breeze.
-
-Aerodynamics comes in to play thanks to the Aero-curve design which features a unique curvature that has less drag through the air and helps increase swing speed. The sweet spot is increased by the Hyperfoam edge wall which adds additional weight and stability where it is needed most.
-
-The average weight of the paddle is 8.4oz and 16 inches in length. the core measures in at 14mm providing the additional pop that power players are looking for.
 
 ## Best Pickleball Paddle for Intermediate Players
 ### Selkirk SLK Halo XL Power
@@ -80,5 +85,5 @@ The best pickleball paddle for intermediate players is the Selkirk SLK Halo XL P
 
 Max and XL versions of the SLK Halo are available depending upon your needs. The Max features a larger paddle shape and increase sweetspot while the XL has an elongated shape and a longer handle. The paddle is 13mm thick and features T700 carbon fiber with Raw Spin Technology to provide additional control and spin. Weights range from 7.6 - 8.2oz with a maximum length of 16.4 inches for the XL version. 
 
-There is also a Control version of this paddle which is slightly thicker and also comes in an XL version.
+There is also a Control version of this paddle which is slightly thicker and also comes in an XL version. The Control is also a great paddle and better suited for players that hit big groundstrokes or want the extra control at the net. The sweetspot is also very large and extremely forgiving.
 
