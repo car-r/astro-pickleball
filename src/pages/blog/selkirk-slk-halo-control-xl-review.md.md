@@ -6,7 +6,7 @@ pubDate: "Feb 22 2023"
 heroImage: "/images/slk-halo-control-xl-review.jpg"
 featured: false
 readTime: '3'
-draft: true
+draft: false
 tags: 
   - "equipment"
   - "review"

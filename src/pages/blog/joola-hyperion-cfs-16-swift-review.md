@@ -6,7 +6,7 @@ pubDate: "Feb 21 2023"
 heroImage: "/images/joola-hyperion-cfs-16-swift-review.jpg"
 featured: false
 readTime: '3'
-draft: true
+draft: false
 tags: 
   - "equipment"
   - "review"
