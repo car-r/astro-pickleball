@@ -6,7 +6,7 @@ pubDate: "Nov 2 2022"
 heroImage: "/images/best-pickleball-paddles-2023.jpg"
 featured: true
 readTime: '3'
-draft: true
+draft: false
 tags: 
   - "equipment"
   - "review"
