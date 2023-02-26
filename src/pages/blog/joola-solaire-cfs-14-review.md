@@ -1,9 +1,9 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
-title: "Joola Hyperion CFS 16 Swift Review"
-description: "Review of the pickleball paddle of Choice for Ben Johns and our favorite all around paddle"
-pubDate: "Feb 21 2023"
-heroImage: "/images/joola-hyperion-cfs-16-swift-review.jpg"
+title: "Joola Solaire CFS 14 Review"
+description: "Review of the most powerful paddle from Joola that is a favorite for top Joola pros."
+pubDate: "Feb 23 2023"
+heroImage: "/images/joola-solaire-cfs-14-review.jpg"
 featured: false
 readTime: '3'
 draft: false

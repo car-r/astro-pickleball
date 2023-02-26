@@ -59,7 +59,7 @@ The ball will not fly off of the paddle, so you’re less likely to pop up your 
 
 Overheads feel very controllable and the extra reach makes hard to get to shots a piece of cake. The extra control allows for sharper angles and put away shots instead of hitting them right back down the middle
 
-## Groundstrokes
+## Groundstrokes and Drives
 
 Groundstrokes felt great with the SLK Halo Control XL thanks to the Rev-Core Control Polymer core and T700 Raw Carbon Fiber surface. Spin was easy to generate and the ball never felt like it was flying off of the paddle. The Halo Control XL made 3rd shot drops were also easy to hit because of all of the spin and control the paddle offers. 
 
@@ -77,6 +77,6 @@ Returns felt extremely solid and stable because of the large sweet spot. Slice r
 
 Overall, we can’t recommend this paddle enough. We definitely preferred the XL version of both the SLK Halo Control and SLK Halo Power, but we’ll also prefer a larger paddle and an elongated handle. The Halo Control produces plenty of spin and feels extremely comfortable anywhere on the court. It also seems very durable and should last a long time, especially when compared to other textured surface paddles.
 
-The SLK Halo is priced very competitively when compared to other high end paddles, and is a no brainer for someone looking for a reasonably priced upgrade. While the Control version lacks the power of a Joola Hyperion or even the Power version of the Halo, the additional control more than makes up for it.
+The SLK Halo is priced very competitively when compared to other high end paddles, and is a no brainer for someone looking for a reasonably priced upgrade. While the Control version lacks the power of a Joola Hyperion or even the Power version of the Halo, the additional control more than makes up for it. You can learn more about the Power version in our full review of the  <a href="/blog/selkirk-slk-halo-power-xl-review">SLK Halo Power XL Review</a>.
 
 We’d recommend this paddle to beginners, intermediate, and advanced players. Beginners that struggle with control will find their game start to come together and keep more balls in the court. A more advanced player will appreciate the extra feel and control for net battles.  We’d recommend trying this paddle or the SLK Halo Power before making a final decision on your next paddle and wouldn’t hesitate to recommend the SLK Halo to any player!
