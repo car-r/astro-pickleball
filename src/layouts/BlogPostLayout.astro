@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import PostCard from "../components/PostCard.astro";
 
 export interface Props {
 	content: {
@@ -9,13 +10,29 @@ export interface Props {
 		pubDate?: string;
 		updatedDate?: string;
 		heroImage?: string;
-		tag?: string[];
+		tags?: string[];
 	};
 }
 
 const {
-    content: {title, description, pubDate, updatedDate, heroImage, tag},
+    content: {title, description, pubDate, updatedDate, heroImage, tags},
 } = Astro.props
+
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob('../pages/blog/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+
+const currentTags = Astro.props.content.tags
+const tagString = currentTags?.toLocaleString()
+console.log('current tags ->', currentTags)
+console.log('posts.length ->', posts.length)
+console.log('frontmatter ->', posts[0].frontmatter.tags)
+const relatedPosts = posts.filter(post => post.frontmatter.tags === currentTags)
+const relatedPosts2 = posts.filter(post => post.frontmatter.tags.includes(tagString))
+console.log('relatedPosts ->', relatedPosts.length)
+console.log('relatedPosts2 ->', relatedPosts2.length)
+
 ---
 
 <!DOCTYPE html>
@@ -26,7 +43,7 @@ const {
     <body class="bg-zinc-100">
         <Header />
         <main class="flex flex-col mx-auto max-w-4xl px-4 py-20">
-            <article class="prose max-w-none prose-lg md:prose-lg prose-a:text-green-500  prose-headings:text-zinc-900 prose-strong:text-zinc-800 prose-h2:text-2xl prose-h3:text-xl prose-li:marker:text-zinc-600 prose-img:w-full">
+            <article class="prose max-w-none prose-lg md:prose-lg prose-a:text-green-500  prose-headings:text-zinc-900 prose-strong:text-zinc-800 prose-h2:text-2xl prose-h3:text-xl prose-li:marker:text-zinc-600 prose-img:w-full prose-blockquote:border-lime-400">
                 {heroImage && (
 					<img
 						width={870}
@@ -40,7 +57,12 @@ const {
                 {pubDate && <time class=" text-stone-700">{pubDate}</time>}
 				{updatedDate && <div class="text-stone-500 ">Last updated on <time>{updatedDate}</time></div>}
                 <slot />
+                <!-- <div class="text-black">{featuredPost.frontmatter.title}</div> -->
             </article>
+            <!-- {relatedPosts2.map((post:any ) => (
+                <PostCard post={post}/>
+            ))} -->
+            
         </main>
     </body>
 </html>

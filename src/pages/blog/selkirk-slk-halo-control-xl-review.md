@@ -8,7 +8,6 @@ featured: false
 readTime: '3'
 draft: false
 tags: 
-  - "equipment"
   - "review"
 ---
 

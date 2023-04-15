@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^0.18.2",
     "@astrojs/react": "^1.2.2",
     "@astrojs/tailwind": "^3.0.1",
     "@nanostores/react": "^0.4.1",

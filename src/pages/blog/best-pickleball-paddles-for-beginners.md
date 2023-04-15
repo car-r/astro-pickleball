@@ -7,7 +7,7 @@ heroImage: "/images/placeholder-hero.jpg"
 featured: true
 draft: true
 tags: 
-  - "equipment"
+
   - "review"
 ---
 

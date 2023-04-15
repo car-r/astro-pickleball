@@ -7,8 +7,7 @@ heroImage: "/images/placeholder-hero.jpg"
 featured: true
 draft: true
 tags: 
-  - "pickleball"
-  - "backhand"
+  - "how-to"
 ---
 
 This is the second post about pickleball
