@@ -1,9 +1,9 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
-title: "3 Ways to Hit a Better Backhand in Pickleball"
-description: "Much like tennis, the forehand tends to be an easier shot to master and becomes your favorite shot to it. In this blog post, we’ll go over three ways you can improve your backhand, and not be afraid to it!"
-pubDate: "Mar 29 2023"
-heroImage: "/images/3-ways-to-hit-a-better-backhand-in-pickleball.jpg"
+title: "12 Pickleball Tips for Beginners"
+description: "Having trouble moving up a level in Pickleball? Master these 12 tips to help bring your game to the next level!"
+pubDate: "May 13 2023"
+heroImage: "/images/12-pickleball-tips-for-beginners.jpg"
 featured: true
 readTime: '12'
 draft: false
