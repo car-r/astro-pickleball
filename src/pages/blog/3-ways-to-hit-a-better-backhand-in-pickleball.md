@@ -8,7 +8,7 @@ featured: true
 readTime: '4'
 draft: false
 tags: 
-  - "how-to"
+  - "education"
 ---
 
 It’s not uncommon to have a weaker backhand than a forehand in pickleball. It’s one of the most frustrating shots to learn. Much like tennis, the forehand tends to be an easier shot to master and becomes your favorite shot to it. In this blog post, we’ll go over three ways you can improve your backhand, and not be afraid to it it!
