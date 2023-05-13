@@ -13,6 +13,20 @@ tags:
 
 Getting stuck on the beginner pickleball courts is never fun, but it’s a normal part of the learning process and everyone goes through it. It can get a little frustrating if you feel stuck on the beginner court because of your skill level, so It’s no surprise that beginners want to move up to the next level as quickly as possible. If you are new to the game, there are a few things you should know to help you get started. In this article, we will share 12 pickleball tips for beginners to help you improve your game and enjoy the sport to the fullest. Make sure to read until the end so you don’t miss out on a few tips you wouldn’t expect!
 
+## Table of Contents
+1. [Staying On Balance When You Serve](#staying-on-balance-when-you-serve)
+2. [Return Serves to the Middle](#return-serves-to-the-middle)
+3. [Practice Your Backhand](#practice-your-backhand)
+4. [Position Yourself Correctly](#position-yourself-correctly)
+5. [Practice Your Footwork](#practice-your-footwork)
+6. [Learn to Dink](#learn-to-dink)
+7. [Keep Your Eye On The Ball](#keep-your-eye-on-the-ball)
+8. [Play to Your Strengths](#play-to-your-strengths)
+9. [Communicate with Your Partner](#communicate-with-your-partner)
+10. [Watch Your Opponents](#watch-your-opponents)
+11. [Keep Track of The Score](#keep-track-of-the-score)
+12. [Get to The Net](#get-to-the-net)
+
 ## Staying on Balance When You Serve
 
 Staying on balance when you serve is one of the most underappreciated parts of the serve. Proper balance helps to reduce errors and increase your consistency. Whether you serve with an open stance, a closed stance, or with a step, staying on balance is the foundation of a great serve.

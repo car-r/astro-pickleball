@@ -60,9 +60,9 @@ The next step would be to get your feet positioned in more of a closed or neutra
 The small, fast steps you took getting to the ball help prepare you for that last step where you plant your leading foot as mentioned above. Stepping into the shot helps to shift your weight foreword and give you a strong base to hit a backhand. This goes for any backhand shot, whether it’s a drive with topspin, a slice, or a dink into the kitchen. Having a strong base increases the probability of hitting a great shot.
 
 ## Practice
-Practicing your backhand sounds like an obvious way to improve, and it is. But practicing is easier said than done. Most recreational players want to improve, but they don’t spend a lot of time actually practicing. Sure, they probably play a lot of Pickleball, but there’s big difference between playing games with your regular group and spending an hour hitting only backhands. 
+Practicing your backhand sounds like an obvious <a href="/blog/12-pickleball-tips-for-beginners">pickleball tip</a>, and it is. But practicing is easier said than done. Most recreational players want to improve, but they don’t spend a lot of time actually practicing. Sure, they probably play a lot of Pickleball, but there’s big difference between playing games with your regular group and spending an hour hitting only backhands. 
 
-One trick to combine playing games and practicing is to focus on a particular shot for a few games in a row. In this example, try to hit as many backhands with your new continental grip as you can the next time you play. You probably won’t play well and your partner Might even get mad at you for missing a few shots, but it’s the only way to improve. 
+One trick to combine playing games and practicing is to focus on a particular shot for a few games in a row. In this example, try to hit as many backhands with your new continental grip as you can the next time you play. You probably won’t play well and your partner might even get mad at you for missing a few shots, but it’s the only way to improve. 
 
 When its your turn to return the serve, position yourself so you’re more likely to hit a backhand than a forehand. Keep your new grip ready and practice that backhand slice. If you can, try to keep the shot deep and to the middle of the court. 
 
