@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
-title: "How Long Do Pickleball Paddles Last?"
+title: "How to Master 3rd Shot Drops in Pickleball"
 description: "Learn the most important shot in pickleball that separates beginners from the rest."
 pubDate: "June 22 2023"
 heroImage: "/images/how-to-master-3rd-shot-drops-in-pickleball.jpg"
