@@ -18,6 +18,8 @@ You don't need much to get started. All you need is a court (which can often be 
 
 ## Pickleball History
 
+### When Was Pickleball Invented
+
 Pickleball was invented by chance in 1965 on Bainbridge Island in Washington State. Congressman Joel Pritchard was with his friend Bill Bell and their families at Pritchard's home trying to find an activity for the entire family. Pritchard had an old badminton court court on the property but was missing a full set of equipment.
 
 The two of them found ping pong paddles and a plastic ball to volley the ball over the net which was still at badminton height. Over the weekend they realized the asphalt had a decent bounce with the plastic ball and they lowered the net similar to a tennis court. They came up with a set of rules, borrowing many from badminton, and the rest is history.
