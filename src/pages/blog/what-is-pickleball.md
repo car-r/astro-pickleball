@@ -26,6 +26,14 @@ The two of them found ping pong paddles and a plastic ball to volley the ball ov
 
 A more detailed history of pickleball can be found <a href="https://usapickleball.org/what-is-pickleball/history-of-the-game/">here</a> at the USA Pickleball website.
 
+## How Big is a Pickleball Court?
+
+A pickleball court is 44 feet long and 20 feet wide. It is based on the dimensions of a badminton court since that is what Joel Pritchard had at his home when the game was first invented. For reference, a tennis court is 78 feet long and 36 feet wide.
+
+The non-volley zone, or kitchen, is 7 feet long and 20 feet wide. There is a non-volley zone on each side of the net. Behind the non-volley zone are the service areas. Each service area is 15 feet long and 10 feet wide. The net is 36 inches high at the sidelines and 34 inches at the center, which is the same as tennis.
+
+![Pickleball court dimensions](/images/pickleball-court-dimensions.jpg)
+
 ## Pickleball Today
 
 Today, pickleball is the one of the <a href="/blog/why-is-pickleball-exploding-in-popularity">fastest growing sports</a>. USA Pickleball  membership doubled from passed 30,000 members in 2018 and the Professional Pickleball Registry (PRR) was formed. The PRR is a subsidiary of the Professional Tennis Registry which has been certifying tennis instructures for decades.
@@ -37,7 +45,6 @@ Tennis players might be sad to see their old courts converted into multiple pick
 ## Singles and Doubles
 
 Pickleball can be played in either singles or doubles format. Doubles is played most often as its easier for beginners and can also be more enjoyable for in a social setting. Two players are on each side similar to doubles in tennis, while singles is played one-on-one. Playing singles is a great way to get extra practice since you get to hit every shot, but you'll definitely be running around more the court.
-
 
 ## Basic Pickleball Rules
 
