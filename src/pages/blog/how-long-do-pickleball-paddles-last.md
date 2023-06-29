@@ -34,7 +34,7 @@ Paddle cores can also degrade over time after plenty of abuse. It isn’t uncomm
 
 ### Legality of Pickleball Paddles and their Durability
 
-Another issue with old or degrading paddles is that they might not be legal for tournament play. In 2023, there were some issues with <a href="/blog is-my-pickleball-paddle-delaminated">delaminated pickleball paddles</a>. This seemed to be isolated to certain paddles that used a thermoformed manufacturing process. 
+Another issue with old or degrading paddles is that they might not be legal for tournament play. In 2023, there were some issues with <a href="/blog/is-my-pickleball-paddle-delaminated">delaminated pickleball paddles</a>. This seemed to be isolated to certain paddles that used a thermoformed manufacturing process. 
 
 A number of professional pickleball players were spoke out about the usage of delaminated pickleball paddles and how they can provide a competitive advantage to other players. They encouraged pickleball manufacturers to address the issue and for stricter paddle testing.
 
