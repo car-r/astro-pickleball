@@ -11,7 +11,7 @@ tags:
   - "pickleball"
 ---
 
-Pickleball is becoming extremely popular, especially in places with mild winters and a lot of public outdoor tennis courts. While both pickleball and tennis are racquet sports, there are some key differences in the equipment, rules, pace of the game, and various levels of play.
+You might be asking yourself <a href="/blog/why-is-pickleball-exploding-in-popularity">why is pickleball so popular</a>? Pickleball is taking the world by storm, especially in places with mild winters and a lot of public outdoor tennis courts. While both pickleball and tennis are racquet sports, there are some key differences in the equipment, rules, pace of the game, and various levels of play.
 
 ## Pickleball Equipment vs Tennis
 In pickleball, players use a composite paddle and a plastic ball with holes (wiffle ball), while tennis requires racquets and a felt-covered ball. Pickleball courts are also smaller, measuring 20x44 feet compared to the regulation tennis court size of 78x36 feet. Additionally, the pickleball net is lower at 34 inches compared to 36 inches in tennis.
@@ -55,4 +55,4 @@ There are many more club level tennis players than there are pickleball players,
 
 ## Pickleball vs Tennis Conclusion
 
-Overall, pickleball and tennis offer similar physical and social benefits, but with some key distinctions in equipment, court size, and gameplay. It is amazing to see pickleball explode in <a href="/blog/why-is-pickleball-exploding-in-popularity">popularity</a> over the last few years, and it's great to see vacant tennis courts put back to use. Will pickleball ever have an equivalent of a Grand Slam? Maybe, but that will have to do with the amount of fans that show up to watch. Either way, the grassroots nature of pickleball has a lot of people rooting for it, even the tennis players!
+Overall, pickleball and tennis offer similar physical and social benefits, but with some key distinctions in equipment, court size, and gameplay. It is amazing to see pickleball explode in popularity over the last few years, and it's great to see vacant tennis courts put back to use. Will pickleball ever have an equivalent of a Grand Slam? Maybe, but that will have to do with the amount of fans that show up to watch. Either way, the grassroots nature of pickleball has a lot of people rooting for it, even the tennis players!
