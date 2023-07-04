@@ -10,7 +10,7 @@ tags:
   - "pickleball"
 ---
 
-Pickleball is a fun, fast-paced game that can be played by people of all ages. It's a cross between tennis, badminton, and ping pong, and can be enjoyed by anyone who loves sports. It's an enjoyable way to get a great workout and make new friends. Here's everything you need to know about pickleball, including how to play it and where you can find courts near you.
+Pickleball is a fun, fast-paced game that can be played by people of all ages. It's a cross between tennis, badminton, and ping pong, and can be enjoyed by anyone who loves sports. It's an enjoyable way to get a <a href="/blog/the-health-benefits-of-playing-pickleball">stay healthy</a> and make new friends. Here's everything you need to know about pickleball, including how to play it and where you can find courts near you.
 
 To play pickleball, players use a solid paddle and a plastic ball with holes similar to a wiffle ball. The game is played on a badminton-sized court that is 44 feet long and 20 feet wide. Points are only are scored when you or your team is serving, and most points are won by being the first team to get close to the net. Games are typically played to 11 points, and there are singles or doubles variations.
 
@@ -22,7 +22,7 @@ You don't need much to get started. All you need is a court (which can often be 
 
 Pickleball was invented by chance in 1965 on Bainbridge Island in Washington State. Congressman Joel Pritchard was with his friend Bill Bell and their families at Pritchard's home trying to find an activity for the entire family. Pritchard had an old badminton court court on the property but was missing a full set of equipment.
 
-The two of them found ping pong paddles and a plastic ball to volley the ball over the net which was still at badminton height. Over the weekend they realized the asphalt had a decent bounce with the plastic ball and they lowered the net similar to a tennis court. They came up with a set of rules, borrowing many from badminton, and the rest is history.
+The two of them found ping pong paddles and a plastic ball to volley the ball over the net which was still at badminton height. Over the weekend they realized the asphalt had a decent bounce with the plastic ball and they lowered the net similar to a tennis court. They came up with a set of pickleball rules, borrowing many from badminton, and the rest is history.
 
 A more detailed history of pickleball can be found <a href="https://usapickleball.org/what-is-pickleball/history-of-the-game/">here</a> at the USA Pickleball website.
 
@@ -48,13 +48,15 @@ Pickleball can be played in either singles or doubles format. Doubles is played 
 
 ## Basic Pickleball Rules
 
+Watching pickleball for the first time might scare you away from playing because the rules seem so complicated. The score has three numbers, players are switching sides, you can't stand in certain spots on the court and hit the ball out of the air. Trust us, you're not alone. After playing a few games, you get the hang of the <a href="/blog/pickleball-rules">pickleball rules</a> and feel confident that you know what you're doing.
+
 In doubles, there are three numbers called out for the score. The first number is the serving teams score, the second number is the returning teams score, and the third number refers to which person on the team is serving. The starting score in doubles is 0-0-2, meaning each time has zero points and the second person is serving. In other words, if the serving team loses the point, the other team gets to serve and the score would then be 0-0-1.
 
-The first serve for each time starts on the 'even' side, or the right side if you're facing the net. The server must serve over the net to the player diagonal from them and the ball must bounce past the "kitchen" line. After the returning team returns the serve, the serving team must let the ball bounce. This is unique to pickleball and prevents the serving team from serving and volleying.
+The first serve for each time starts on the 'even' side, or the right side if you're facing the net. <a href="/blog/pickleball-serve-rules">Pickleball serving rules</a> guide you on <a href="/blog/how-to-serve-in-pickleball">how to serve</a> and where you can serve. The server must serve over the net to the player diagonal from them and the ball must bounce past the "kitchen" line. After the returning team returns the serve, the serving team must let the ball bounce. This is unique to pickleball and prevents the serving team from serving and volleying.
 
 The "Kitchen", or the Non-Volley Zone is a 7 ft deep box the starts at the net and ends at the service boxes. The Non-Volley Zone is pretty self-explanatory. Players are not allowed to hit the ball out of the air if they're standing inside the kitchen. Players can also not hit the ball out of the air and then step into the kitchen after the shot, essentially "jumping" into the kitchen. Players can, however, jump from behind the kitchen and land outside of the sideline while hitting the ball out of the air. This is a more advanced move, but you will see this from competitive players.
 
-Scoring points can only be done while serving. Similar to tennis, it's important to hold serve and keep serving as long as possible. Players can gain a lot of momentum if they score a few points in a row before the other team gets a chance to serve. The returning team's job is of course to win the point, but more importantly to prevent the serving team from accumulating points and to get back on serve. 
+Scoring points can only be done while serving. This is one of the biggest differences between <a href="/blog/pickleball-vs-tennis">pickleball and tennis</a>. From a strategy standpoint, it's important to hold serve and keep serving as long as possible. Players can gain a lot of momentum if they score a few points in a row before the other team gets a chance to serve. The returning team's job is of course to win the point, but more importantly to prevent the serving team from accumulating points and to get back on serve. 
 
 ## Pickleball is for all ages
 
@@ -66,7 +68,7 @@ Pickleball is also great for kids. It's easy to learn (except for keeping track 
 
 ## Where to Play Pickleball
 
-Pickleball is mostly played on public tennis courts that have additional lines and a net specific to pickleball. Some people who've taken a liking to the sport have even built a court in their backyards. Places 2 Play is a great website to find <a href="https://www.places2play.org/"> pickleball courts</a> near you. 
+Pickleball is mostly played on public tennis courts that have additional lines and a net specific to pickleball. Some people who've taken a liking to the sport have even built a court in their backyards. Places 2 Play is a great website to find <a href="https://www.places2play.org/">pickleball courts</a> near you. 
 
 Indoor courts are also available in some parts of the country, especially where pickleball is very popular. Entreprenuers have also built indoor pickleball facilities and put up regulation size courts where you can book time to play. They usually have free clinics for beginners and allow you to rent all of the equipment needed to play.
 

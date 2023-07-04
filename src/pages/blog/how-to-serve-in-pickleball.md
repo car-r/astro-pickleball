@@ -45,7 +45,7 @@ Before jumping into how to serve in pickleball and basic serving technique, ther
 3. Both feed must be behind the baseline on contact with at least one foot on the ground
 4. The ball must land in the crosscourt service area and past the kitchen line
 
-You can learn more about pickleball serving rules in this in depth blog post, but for now, these rules will get you started!
+You can learn more about <a href="/blog/pickleball-serve-rules">pickleball serving rules</a> in this in depth blog post, but for now, these rules will get you started!
 
 ## Pickleball Serve
 
@@ -85,7 +85,7 @@ Try not to bend the arm or flick the wrist during your toss. Doing this can lead
 
 ### Hitting the Ball and Shifting Your Weight
 
-The last step in the serve is hitting the ball and shifting your weight. Getting into a good serving rhythm is critical in having a strong and consistent serve. If you serve with a different technique each time, you’ll struggle to find a comfortable and repeatable serve.
+The last step in the serve is hitting the ball and shifting your weight. Getting into a good serving rhythm and staying on balance are some of our favorite <a href="/blog/12-pickleball-tips-for-beginners">pickleball tips</a> that helps you have strong and consistent serve. If you serve with a different technique each time, you’ll struggle to find a comfortable and repeatable serve.
 
 Shifting your weight can be done with or without a step. Serving with a step will make this part of the service motion more obvious since your body is moving forward as you take the step prior to hitting the ball. Serving without a step will involve some bodyweight transfer from hips, moving from the back leg to the front leg.
 

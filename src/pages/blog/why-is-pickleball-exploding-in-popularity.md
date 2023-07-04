@@ -25,7 +25,7 @@ While pickleball is easy to pick up, there is definitely a learning curve when i
 
 ## Pickleball has less injuries
 
-Compared to tennis, you're less likely to get injured playing pickleball. A lot of recreational tennis players have experienced tennis elbow. Tennis elbow typically comes from paying too much and squeezing the racquet to tight. Pickleball paddles are much lighter and you rarely hit the ball as hard as you can.
+Compared to tennis, you're less likely to get injured playing pickleball, and there may even be <a href="/blog/the-health-benefits-of-playing-pickleball">health benefits</a> to go along with it. A lot of recreational tennis players have experienced tennis elbow. Tennis elbow typically comes from paying too much and squeezing the racquet to tight. Pickleball paddles are much lighter and you rarely hit the ball as hard as you can.
 
 Shoulder injuries are common for tennis players and baseball players because of all of the throwing and serving. Pickleball also doesn't require as many overhead movements. Everyone loves hitting a hard overhead smash at the net, but pickleball players try very hard to keep the ball low and below shoulder height.
 
