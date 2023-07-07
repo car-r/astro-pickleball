@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
 title: "Is My Pickleball Paddle Delaminated?"
-description: "The three biggest differences between pickleball and tennis."
+description: "What is a delaminated pickleball paddle and why is it such a big deal. Learn all about this issue and how you can check to see if you're paddle is delaminated!"
 pubDate: "May 2 2023"
 heroImage: "/images/is-my-pickleball-paddle-delaminated.jpg"
 featured: true
