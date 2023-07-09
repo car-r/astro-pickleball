@@ -23,8 +23,9 @@ There are several reasons why you should stack in pickleball and why it is an im
 
 1. Stacking allows you and your partner to take advantage of your strengths.
 2. It provides consistency between points.
-3. Allows you to defend your weaknesses
+3. Allows you to defend your weaknesses.
 4. It can confuse your opponents.
+5. Can keep forehands in the middle
 
 One of the most obvious advantages of stacking is putting you or your partner in a position to hit your best shots. If you have a better forehand than your partner, it might make sense for you to be on the side that keeps your forehand in the middle. If one player is left handed and the other is right handed, you can have a huge advantage by keeping forehands in the middle.
 
@@ -33,6 +34,8 @@ Stacking also provides more consistency between each point. If you and your part
 Stacking also allows you to and your partner to defend against your weaknesses. If you or your partner has a very weak backhand, it might be better for them to stand on the side of the court so that their forehand is in the middle. Also, one of your opponents might be attacking a weakness of yours or your partners, like a cross court backhand dink.  It might make sense to switch sides to defend against that.
 
 Stacking can be confusing for your opponents, especially if they are not used to playing against it. This can give you an easy advantage and help you win more free points. Stacking won’t be confusing for more advanced players, but it will keep them on their toes!
+
+The best case scenario is that your partner plays with the opposite hand that you do. In this case, one of you is right-handed and the other is left-handed. This allows you to keep both of your forehands in the middle for every point. This can be a huge advantage in doubles because it allows for a better opportunity to poach. 
 
 ## How to Stack in Pickleball
 
@@ -80,12 +83,29 @@ Stacking on serve is important because it allows you to create an offensive scen
 
 A pickleball stacking strategy isn’t just limited to when your team is serving. You and your partner should get comfortable stacking when you’re returning, too. The overall stacking concept is the same, but you have the added flexibility of standing on the sideline and closer to the net. Let’s go over the different stacking strategies on the return.
 
-1. Returning from the right side with two right handed players, and the returner has a better forehand or a weaker backhand than their partner. The returner should take the left side after the return and their partner can stand outside the right sideline. They’ll move closer to the middle after the return crosses the net.
-2. Returning from the left side with two right handed players, and the returner has a better forehand or a weaker backhand. The returner should stay on the left side after the return and get to the net. Their partner can stand near the center line and the kitchen.
+1. Returning from the right side with two right handed players, and the returner has a better forehand or a weaker backhand than their partner. The returner should take the left side after the return and their partner can stand outside the right sideline. They’ll move closer to the middle after the return crosses the net. This is a good stacking strategy if the non returning player has a strong backhand volley and likes to poach.
+
+![Pickleball stacking strategy on return right side - right-handed returner has better forehand or they have a weak backhand](/images/stacking-on-return-1.jpg)
+
+2. Returning from the left side with two right handed players, and the returner has a better backhand or their partner has a weaker backhand. The returner should move on the right side after the return and get to the net. Their partner can move from the sideline closer to the center line and the kitchen. If the non returning player has an excellent forehand and likes to poach, this would also be a great stacking strategy.
+
+![Pickleball stacking strategy on return left side - right-handed returner has better backhand or their partner has a weak backhand](/images/stacking-on-return-2.jpg)
+
 3. Returning from the right side with a right handed returner and a left handed partner. The right handed returner should take the left side after the return and move towards the net. The left handed player can stand outside the right sideline and cover the middle after the return crosses the net.
+
+![Pickleball stacking strategy on return right side - right-handed returner has a left-handed partner](/images/stacking-on-return-3.jpg)
+
 4. Returning from the left side with a left handed returner and a right handed partner. The left handed returner should take right side after the return. The right handed player can stand outside the left sideline and cover the middle after the return crosses the net.
+
+![Pickleball stacking strategy on return left side - left-handed returner has a right-handed partner](/images/stacking-on-return-4.jpg)
+
 5. Returning from the right side with two left handed players and the returner has a better backhand. The returner moves to the left side after the return and goes toward the net. Their partner stands outside the right sideline and covers the middle after the return crosses the net.
-6. Returning from the left side with two left handed players and the partner has a better backhand. The returner moves to the right side after the return and goes toward the net. Their partner stands outside the left sideline and covers the middle after the return crosses the net.
+
+![Pickleball stacking strategy on return right side - left-handed returner has a left-handed partner](/images/stacking-on-return-5.jpg)
+
+6. Returning from the left side with two left handed players and the partner has a better backhand or the returner has a great forehand. The returner moves to the right side after the return and goes toward the net. Their partner stands outside the left sideline and covers the middle after the return crosses the net.
+
+![Pickleball stacking strategy on return right side - left-handed returner has a left-handed partner](/images/stacking-on-return-6.jpg)
 
 ## How to Incorporate Stacking Into Your Game
 
