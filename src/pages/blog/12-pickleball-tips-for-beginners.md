@@ -29,9 +29,11 @@ Getting stuck on the beginner pickleball courts is never fun, but it’s a norma
 
 ## Staying on Balance When You Serve
 
-Staying on balance when you serve is one of the most underappreciated parts of the serve. Proper balance helps to reduce errors and increase your consistency. Whether you serve with an open stance, a closed stance, or with a step, staying on balance is the foundation of a great serve.
+Staying on balance when you serve is one of the most underappreciated parts of the serve. Proper balance during your <a href="/blog/how-to-serve-in-pickleball">pickleball serve</a> helps to reduce errors and increase your consistency. Whether you serve with an open stance, a closed stance, or with a step, staying on balance is the foundation of a great serve.
 
-Most beginners serve with a step instead of with an open or closed stance. Open and closed stance serves are typical for more advanced and professional players. Many beginners unknowingly are stepping with the wrong foot when they serve! As an example, if you’re a right-handed player and you take a step forward with your right foot as you’re serving, you can become off balance. Instead, you should be stepping forward with the opposite foot. In this case, a right-handed player should be taking a step forward with the left foot during the serve.
+Most beginners serve with a closed stance and a step instead of with an open or closed stance. Open and closed stance serves are typical for more advanced and professional players. Many beginners unknowingly are stepping with the wrong foot when they serve! 
+
+As an example, if you’re a right-handed player and you take a step forward with your right foot as you’re serving, you can become off balance. Instead, you should be stepping forward with the opposite foot. In this case, a right-handed player should be taking a step forward with the left foot during the serve.
 
 For some players, taking a step at all can over-complicate the serving motion. If this is happening to you, you should remove the step and try serving with more of a closed stance. If you notice that you aren’t stepping with the opposite foot, give it a try and see how it feels. It might feel weird at first since you’re already used to serving a certain way, but after a few games, it will start to feel more natural and balanced.
 
@@ -55,7 +57,7 @@ You’re going to want to practice hitting third shot drops and resets on the ba
 
 Dinking from the backhand side is also a shot you’re going to want to practice. Just like on a ground stroke, if your opponent realizes you’re not comfortable dinking from the backhand side they will start to dink every shot to your backhand. You’re more likely to pop the ball up on the backhand side if that is your weaker shot. Grab a partner and practice hitting dinks back and forth with just your backhand. Make it a goal to make 10 in a row with no mistakes.
 
-If you’re feeling adventurous, you can always start to learn a two-handed backhand. This is more of an advanced shot in pickleball that is becoming more popular with the pros. The two-hander allows you to drive the ball and hit much more aggressively than with one hand. Tennis players that already have a two-handed backhand will pick this up much faster, but anybody can learn it with enough practice. Your current pickleball paddle handle might not be long enough to fit both hands, so keep that in mind if this is something you want to try.
+If you’re feeling adventurous, you can always start to learn a <a href="/blog/why-you-need-a-two-handed-backhand-in-pickleball">two-handed backhand</a>. This is more of an advanced shot in pickleball that is becoming more popular with the pros. The two-hander allows you to drive the ball and hit much more aggressively than with one hand. Tennis players that already have a two-handed backhand will pick this up much faster, but anybody can learn it with enough practice. Your current pickleball paddle handle might not be long enough to fit both hands, so keep that in mind if this is something you want to try.
 
 ## Position Yourself Correctly
 
@@ -66,6 +68,8 @@ One easy way to practice your position on the court is to pretend you are tether
 If you’re in a net battle dinking back and forth and your partner is hitting most of the dinks, it is important to slide with them if they are pulled off of the court. The reason for this is that you want to prevent your opponent from attacking the ball down the middle. If you don’t slide will your partner and pretend you are tethered together, you’ll leave the middle of the court open for your opponent to attack.
 
 Moving with your opponent also increases the probability of getting an easier shot from your opponent. Like the example above, if you slide with your partner as they’re being pulled off of the court, you’re already in the right position to hit a shot coming to the middle of the court. You’re also giving your opponent an opening to hit a cross-court dink to you, but that is a much harder shot to hit and will end up being defensive. Always position yourself in the place your opponent is most likely to hit.
+
+The last way to position yourself accordingly is to practice <a href="/blog/pickleball-stacking">pickleball stacking</a>. Stacking is a specific doubles strategy where you and your partner line up on the same side of the court before the serve or return. Doing this allows you to switch sides quickly so that you or your partner are on your stronger side for the rest of the point.
 
 ## Practice Your Footwork
 
@@ -85,7 +89,11 @@ Dinking and the kitchen is what makes pickleball different from all the other ra
 
 When you’re first learning to dink, you should practice with a partner dinking back and forth. A good dink would bounce more than once inside the kitchen if your opponent or partner didn’t hit the ball back to you. You can move on to other drills such as dinking only cross-court or alternating from forehand to backhand. You’ll probably notice that one side will be easier than the other.
 
-It’s also a good idea to practice dinks with a continental grip, or what’s also called the shake hands grip. This will be easier for beginners and help give you more control. It will also be easier to switch from hitting a forehand to a backhand since you won’t need to switch grips. With that being said, many pros to hit their dinks with a forehand grip, and you can always try that as you improve. Some beginners struggle with this because they’re more likely to pop the ball up, but it feels more comfortable since that is the same grip they hit the forehand with.
+It’s also a good idea to practice dinks with a continental grip, or what’s also called the shake hands grip. This will be easier for beginners and help give you more control. It will also be easier to switch from hitting a forehand to a backhand since you won’t need to switch grips. 
+
+With that being said, many pros hit their dinks with a forehand grip for both the forehand and backhand side. You can always try that as you improve and get more comfortable in the non-volley zone. Some beginners struggle with this because they’re more likely to pop the ball up, but it feels more comfortable since that is the same grip they hit the forehand with.
+
+Once you're comfortable hitting dinks, you can learn how to hit <a href="/blog/pickleball-stacking">3rd shot drops</a>. This is a shot where you hit a defensive shot that lands in the non-volley zone after you or your partner have served. You will typically be near the baseline when you hit this shot.  
 
 ## Keep Your Eye On The Ball
 
@@ -125,7 +133,7 @@ Keeping track of the score is an easy tip to help you win more matches. This mig
 
 Knowing the score at all times will also help with your shot selection. If the score is 7-9 and you’re on serve, maybe you shouldn’t go for a big serve and just try to get it in. The same can be said the other way around. Say the score is 9-7-2 and the other team is serving, theres a good chance they’re going to try and just keep the serve in and not go for a big shot. You can anticipate this and plan on hitting a strong return.
 
-Your opponents and parter will thank you for keeping track of the score. You’ll end up being more calm and prepared going into each and every point.
+Your opponents and parter will thank you for keeping track of the score. You’ll end up being more calm and prepared going into each and every point. Understanding basic pickleball scoring and <a href="/blog/pickleball-rules">pickleball rules</a> will take your game surprisingly far!
 
 ## Get to the Net
 
