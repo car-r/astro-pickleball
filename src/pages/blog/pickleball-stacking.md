@@ -11,7 +11,7 @@ tags:
   - "education"
 ---
 
-Have you ever seen pickleball players standing to one side of the court and think, why the heck are they standing like that? This is called stacking, and it’s one of the most important strategies in pickleball. It is a great way to make sure you’re .
+Have you ever seen pickleball players standing to one side of the court and think, why the heck are they standing like that? This is called stacking, and it’s one of the most important strategies in pickleball. It is a great way to make sure that you’re taking advantage of your strengths and defending against your weaknesses.
 
 ## What is Stacking in Pickleball
 
