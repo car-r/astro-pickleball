@@ -9,10 +9,10 @@ trending: true
 readTime: '8'
 tags: 
 
-  - "pickleball"
+  - "pickleball rules"
 ---
 
-Do you love playing racquet sports? If so, you'll love pickleball! Pickleball is a unique sport that borrows rules from different racquet sports and creates new ones to make the game challenging, yet fun. The sport is played with two or four players using paddles, a plastic ball and a net. The basic premise of the game is to hit a ball over a net and make your opponent miss. There are many different shots that can be used in pickleball, making the game interesting for both beginners and experts alike. In this blog post, we will discuss the different rules of pickleball and how you can start playing today!
+Do you love playing racquet sports? If so, you'll love <a href="/blog/what-is-pickleball"> pickleball</a>! Pickleball is a unique sport that borrows rules from different racquet sports and creates new ones to make the game challenging, yet fun. The sport is played with two or four players using paddles, a plastic ball and a net. The basic premise of the game is to hit a ball over a net and make your opponent miss. There are many different shots that can be used in pickleball, making the game interesting for both beginners and experts alike. In this blog post, we will discuss the different rules of pickleball and how you can start playing today!
 
 
 ## Rules Unique to Pickleball
@@ -33,13 +33,13 @@ Another quirk of the kitchen is that you aren't allowed to hit a ball out of the
 
 ### Serving Rules
 
-Serving in pickleball is the opposite as in tennis. In pickleball, players must serve underhand and make contact below their waist. In tennis most serves are hit overhead, although some players will hit an underhand spin serve to try and throw their opponent off of their game. New serving rules have also been added in recent years as more advanced players have developed certain tossing techniques that have given them too much of an advantage.
+<a href="/blog/how-to-serve-in-pickleball">Serving in pickleball</a> is the opposite as in tennis. In pickleball, players must serve underhand and make contact below their waist. In tennis most serves are hit overhead, although some players will occasionally serve underhand to try and get a free point. New serving rules have also been added in recent years as more advanced players have developed certain tossing techniques that have given them too much of an advantage.
 
 Players must also stand behind the playing surface and not to the right or left side of either sideline. When serving, the highest point of the paddle may not be higher than the wrist during contact. This is to prevent players from serving with too much topspin. The swing arc must also be in an upward movement from low to high. 
 
 When serving, the ball must also be hit accross the court and not land in the Non-Volley Zone. It is important to note that the Non-Volley Zone line is a part of the Non-Volley Zone, and any serve that hits this line is considered "out". This is somewhat similar to tennis since the ball is serve across the court and must land in a dedicated "service box", with the exception that all lines are considered "in". The ball is allowed to land on the sideline, middle line, or baseline so long as it still lands beyond the kitchen line.
 
-Another interesting rule related to the serve is that both the serve and the return must bounce. In other words, the serving team must let the first shot hit back to them bounce. This rule prevents serving and volleying and allows the points to last longer. This rule is often referred to as the 2-bounce rule, not to be confused with the ball bouncing twice and one side and thus ending the point.
+Another interesting <a href="/blog/pickleball-serve-rules">pickleball serving rule</a> is that both the serve and the return must bounce. In other words, the serving team must let the first shot hit back to them bounce. This rule prevents serving and volleying and allows the points to last longer. This rule is often referred to as the 2-bounce rule, not to be confused with the ball bouncing twice and one side and thus ending the point.
 
 ### New Serving Rules
 
