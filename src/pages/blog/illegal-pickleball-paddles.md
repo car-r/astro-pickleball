@@ -75,7 +75,7 @@ Players are allowed to modify or alter their paddle as long as the paddle still 
 3. Increasing or decreasing the grip size
 4. Using a different or additional grip
 
-One of the most popular ways to customize your pickleball paddle is to add lead tape to the edges. This can give the paddle a different swing weight and help make the paddle feel more balanced. Doing this is completely legal and acceptable in tournament play.
+One of the most popular ways to customize your pickleball paddle is to add <a href="/blog/pickleball-lead-tape">lead tape</a> to the edges. This can give the paddle a different swing weight and help make the paddle feel more balanced. Doing this is completely legal and acceptable in tournament play.
 
 It is also fairly common to adjust the grip size on your pickleball paddle. Paddles tend to come in one grip size per paddle. Players with larger hands might need to build up the grip by using build up sleeves or adding an overgrip. Changing out your overgrip after matches or tournaments is recommended as they do wear out over time and can impact performance.
 

@@ -95,15 +95,15 @@ Players may also not reach over the net before hitting the ball or touch the net
 
 ## Other Pickleball Rules to Remember
 
-Not that there aren't already so many rules to keep in mind while player, there are also so one-off rules that are important to remember while playing.
+Not that there aren't already so many rules to keep in mind while player, there are also so one-off rules that are important to remember.
 
 Double hits can and do happen during pickleball. These are defined as the ball being hit twice during a swing by one player and must be unintentional and continuous. If this happens during the point, nothing needs to be said or called out and the point simply continues.
-
-Players are also allowed to switch hands from say right hand to left hand in order to reach for a ball and make a shot. Ambidextrous players will take advantage of this as it may be easier to switch hands than to hit a backhand in certain circumstances. Two-handed backhands or forehands are also allowed.
 
 Its also important to remember that missed shots are allowed. If one player swings and does not make any contact with the ball, that ball is still in play and can be hit before it bounces twice. This happens more in doubles than it does in singles.
 
 A pickleball can also break during the point. If this happens, play continues until the point is over. Players must then address the broken ball before the next serve in order to bring a new ball into play. If this happens during a tournament, players must appeal to the referee to confirm whether or not the ball is cracked or broken.
+
+Pickleball paddes aren't allowed to be modified. The only modifications that are allowed are adding or changing the grip and using lead tape. Putting <a href="/blog/pickleball-lead-tape">lead tape</a> on your pickleball paddle is a legal and popular way to change your paddles performance. 
 
 
 ## Conclusion
