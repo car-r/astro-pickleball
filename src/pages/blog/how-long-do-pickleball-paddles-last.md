@@ -66,6 +66,8 @@ Playing a lot of pickleball can lead to getting scratches and cracks along the o
 
 There are edge tape products that you can put along the outside of the frame to help protect your paddle. If it makes you feel like your paddle is more protected, then we definitely recommend putting edge tape on your paddle. If you change paddles often or wear out your paddles surface quickly, the edge tape won’t make too much of a difference.
 
+If you use <a href="/blog/pickleball-lead-tape">lead tape</a> on your pickleball paddle, you might want to cover it with edge tape or electrical tape. Not only will you get the benefit of improving the balance of your paddle, you'll also help protect the edges from getting damaged!
+
 ## Tips for prolonging the lifespan of your Pickleball Paddle
 
 Regular pickleball paddle maintenance can help increase the durability of your paddle. There are basic things you can do like keeping your paddles in proper paddle bag for storage. It’s also a good idea not to expose your paddle to extreme temperature changes. Leaving your paddle in the trunk of your car or in a shed might decrease the longevity of your paddle because of these temperature changes. Keeping the paddles your not using in your bag while you’re out playing will also keep the paddle protected from the sun or accidental breakage.

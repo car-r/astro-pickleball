@@ -119,7 +119,7 @@ If you want to incorporate stacking into your pickleball game, there are a few t
 
 ## Pickleball Stacking Rules
 
-There aren’t any specific pickleball rules to determine how and where you should be standing on the court. There are a few things to remember in order to stay within the rules.
+There aren’t any specific <a href="/blog/pickleball-rules">pickleball rules</a> to determine how and where you should be standing on the court. There are a few things to remember in order to stay within the rules.
 
 - When serving, your partner can stand anywhere in the court. They still must let the third shot bounce before hitting it.
 - The serve must stay within the specified serving area between the sideline and the centerline and behind the baseline.
