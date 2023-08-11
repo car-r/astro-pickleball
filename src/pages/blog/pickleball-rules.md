@@ -8,7 +8,6 @@ featured: true
 trending: true
 readTime: '8'
 tags: 
-
   - "pickleball rules"
 ---
 
