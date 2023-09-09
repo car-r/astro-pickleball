@@ -11,7 +11,7 @@ tags:
   - "pickleball"
 ---
 
-Delaminated pickleball paddles have become a hot topic in the sport and now professionals are starting to weigh in on the issue. In this article, we’ll go over what delamination is, how to check if your paddle is delaminated, why it is becoming such a big issue in the sport.
+Delaminated pickleball paddles have become a hot topic in the sport and now professionals are starting to weigh in on the issue. In this article, we’ll go over what paddle delamination is, how to check if your paddle is delaminated, why it is becoming such a big issue in the sport.
 
 ## What is a Delaminated Pickleball Paddle
 
@@ -44,7 +44,7 @@ One of the reasons why delamination is such a big issue is that it causes the �
 
 Pickleball Paddle delamination is a big deal because of the “trampoline effect” it causes. The trampoline effect happens due to the space created between the face and the core of the paddle when they detach from each other. This space allows the ball to sit in the paddle longer and then spring off of the face, similar to a trampoline. 
 
-The trampoline effect can increase the speed at which the ball comes off of the paddle. This allows for players to hit harder shots than wild otherwise be possible with a paddle that isn’t delaminated. This extra pop from delaminated paddles can create an unfair advantage. This unfair advantage is why official rules state that using delaminated paddles is illegal. 
+The trampoline effect can increase the speed at which the ball comes off of the paddle. This allows for players to hit harder shots than wild otherwise be possible with a paddle that isn’t delaminated. This extra pop from delaminated paddles can create an unfair advantage. This unfair advantage is why official <a href="/blog/pickleball-rules">pickleball rules</a> state that using delaminated paddles is illegal. 
 
 > the paddle’s hitting surface shall not contain delamination, holes, cracks or indentations that break the paddle skin or surface
 
