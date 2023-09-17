@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPostLayout.astro'
 title: "Pickleball Ratings: How to know your rating"
 description: "Dive into the world of pickleball ratings. From newbie (1.0) to pro (5.0), learn what each rating means and how to determine your rating. Get the scoop on rating systems like DUPR and USA Pickleball Ratings."
-pubDate: "September 10 2023"
+pubDate: "September 9 2023"
 heroImage: "/images/pickleball-rating-feature-image.jpg"
 featured: true
 trending: true
@@ -68,7 +68,7 @@ You can hit more powerful shots and identify weaknesses in your opponents. This 
 
 4.5 pickleball players are successfully understands game strategy from dinks and drives to court positioning. You’re also hitting the ball where you want. You’re starting to have a plan for each point that you play both serving and returning. 
 
-You’re also comfortable with <a href="/blog/pickleball-stacking">pickleball stacking</a> strategy your partner and have figured out the strengths in your game. You should be beating 3.5 and below players relatively easily.
+You’re also comfortable with <a href="/blog/pickleball-stacking">pickleball stacking</a> strategy your partner and have figured out the strengths in your game. You should be beating 3.5 and below players relatively easily. 4.5 players will also be hitting more advanced shots like the <a href="/blog/pickleball-erne">erne</a>.
 
 ### What is a 5.0 pickleball player
 
@@ -83,6 +83,8 @@ At this level you’d do well in tournaments and would consistently be winning m
 It is different than a typical pickleball rating system in that it is app based and takes all matches and scores into account when determining a rating. It is constantly being updated and anyone can enter a match into the system as long as everyone agrees and has the app.
 
 One downside of DUPR is that not all players are utilizing the app. Players at your local courts might not be entering matches into the DUPR app to keep track of their rating. Serious players in leagues, clubs, and tournaments are more likely to use the app.
+
+You learn how to get a <a href="/blog/dupr-rating">DUPR rating</a> in our blog post.
 
 ## USA Pickleball Ratings
 
