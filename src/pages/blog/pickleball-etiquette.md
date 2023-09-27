@@ -13,6 +13,8 @@ tags:
 
 Pickleball is a social sport that is supposed to be fun, fast, and friendly. But as you’ll learn, it can be a frustrating game, especially if you’re not playing well. Good sportsmanship is more than just encouraged. It’s expected in this fast growing and <a href="/blog/why-is-pickleball-exploding-in-popularity">popular sport</a>. In this blog post we’ll go over proper pickleball etiquette so you can feel comfortable jumping in and playing with anyone.
 
+<iframe width="560" height="420" class="responsive-iframe container" src="https://www.youtube.com/embed/OqNGlILMKzE?si=APeXX37Die_C0FoZ" title="pickleball etiquette" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Line Calls
 
 The last thing you want in pickleball is to be known by other players as the person who makes bad line calls. If the ball lands close to the line and you can’t tell if it was in or out, you should call it in. This is a rule in both tennis and pickleball and its important to not call balls out unless you’re 100% sure it landed out.

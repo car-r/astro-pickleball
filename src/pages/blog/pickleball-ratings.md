@@ -19,6 +19,8 @@ Pickleball ratings are a way to measure the skill level of players in pickleball
 
 ## How to Find My Pickleball Rating
 
+<iframe width="560" height="420" class="responsive-iframe container" src="https://www.youtube.com/embed/rxBbvfLSn0o?si=yRXcZuQDvN4n0bPd" title="pickleball ratings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 There are a few different ways to find out your <a href="https://www.ppatour.com/how-to-find-your-pickleball-rating/" target="_blank">pickleball rating</a>. The most common way to figure out your rating is to self-rate. This is coincidentally the most difficult way because new players don’t have a good frame of reference to self-rate for the first time. You can use our pickleball rating calculator below to help determine your rating.
 
 Another way to determine your pickleball rating is to participate in a tournament or league that assigns ratings based on performance. There are local clubs that offer assessments to help you determine your rating. You can also reach out to your local pickleball association or club to see when they offer rating clinics or assessments.

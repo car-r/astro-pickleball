@@ -17,11 +17,13 @@ Delaminated pickleball paddles have become a hot topic in the sport and now prof
 
 A delaminated pickleball paddle is one where the face or surface of the paddle has become detached from the core. As a paddle is used, its possible that the face can become “unglued” from its core and is now delaminated. Paddles that utilize a thermoformed manufacturing process appear to be the most impacted from recent claims of delamination.
 
-The thermoformed manufacturing process has become popular in recent years, especially as edgeless paddles became more popular. Delamination is a common manufacturing process that has been used for things like carbon fiber bike frames or car parts. The process involves sealing the surface and core of the paddle with a piece of carbon fiber around the edge inside of a custom mold. The mold is put under high temperature and pressure that helps to bond the components together to create a strong and durable paddle.
+The thermoformed manufacturing process has become popular in recent years, especially as edgeless paddles became more popular. Thermoforming is a common manufacturing process that has been used for things like carbon fiber bike frames or car parts. 
+
+The process involves sealing the surface and core of the paddle with a piece of carbon fiber around the edge inside of a custom mold. The mold is put under high temperature and pressure that helps to bond the components together to create a strong and durable paddle.
 
 [![Video taking apart a thermoformed pickleball paddle](https://i3.ytimg.com/vi/Khs58jmj-aU/maxresdefault.jpg)](https://youtu.be/Khs58jmj-aU "Taking Apart a Thermoformed Pickleball Paddle")
 
-Unfortunately, a small percentage of thermoformed paddles that are popular among pro players are becoming delaminated during gameplay. Players are hitting harder and generating more spin than ever, and paddle durability is being put to the test.
+Unfortunately, a small percentage of thermoformed paddles that are popular among pro players are becoming delaminated during gameplay. Players are hitting harder and generating more spin than ever, and <a href="/blog/how-long-do-pickleball-paddles-last">pickleball paddle durability</a> is being put to the test.
 
 
 ## How to check if your paddle is Delaminated
@@ -44,7 +46,9 @@ One of the reasons why delamination is such a big issue is that it causes the �
 
 Pickleball Paddle delamination is a big deal because of the “trampoline effect” it causes. The trampoline effect happens due to the space created between the face and the core of the paddle when they detach from each other. This space allows the ball to sit in the paddle longer and then spring off of the face, similar to a trampoline. 
 
-The trampoline effect can increase the speed at which the ball comes off of the paddle. This allows for players to hit harder shots than wild otherwise be possible with a paddle that isn’t delaminated. This extra pop from delaminated paddles can create an unfair advantage. This unfair advantage is why official <a href="/blog/pickleball-rules">pickleball rules</a> state that using delaminated paddles is illegal. 
+The trampoline effect can increase the speed at which the ball comes off of the paddle. This allows for players to hit harder shots than wild otherwise be possible with a paddle that isn’t delaminated. 
+
+This extra pop from delaminated paddles can create an unfair advantage. This unfair advantage is why official <a href="/blog/pickleball-rules">pickleball rules</a> state that using a delaminated <a href="/blog/illegal-pickleball-paddle">pickleball paddle is illegal</a>. 
 
 > the paddle’s hitting surface shall not contain delamination, holes, cracks or indentations that break the paddle skin or surface
 

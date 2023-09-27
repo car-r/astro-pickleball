@@ -15,6 +15,8 @@ Welcome to our comprehensive guide on mastering one of the most effective and el
 
 In this guide, we'll delve into the mechanics, strategies, and nuances of the Erne shot, breaking down each step to help you become a true Erne master.
 
+<iframe width="560" height="420" src="https://www.youtube.com/embed/ShAIo7efwyA?si=hSoEFOup9d6eLDsJ" title="pickleball erne" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## What is an Erne in Pickleball
 
 The Erne is an advanced pickleball shot where you volley the ball close to the net while stepping or jumping over the kitchen. The shot was named after Erne Perry who popularized it in 2010 during nationals. 

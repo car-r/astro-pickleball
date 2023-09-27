@@ -15,7 +15,9 @@ Did you hear someone mention their DUPR rating and have no idea what they’re t
 
 ## What is a DUPR Rating?
 
-[![Promotional video about pickleball DUPR Rating](https://i3.ytimg.com/vi/2z2RM74qD5s/maxresdefault.jpg)](https://www.youtube.com/watch?v=2z2RM74qD5s "Pickleball DUPR Rating")
+<!-- [![Promotional video about pickleball DUPR Rating](https://i3.ytimg.com/vi/2z2RM74qD5s/maxresdefault.jpg)](https://www.youtube.com/watch?v=2z2RM74qD5s "Pickleball DUPR Rating") -->
+
+<iframe width="560" height="420" class="responsive-iframe container" src="https://www.youtube.com/embed/2z2RM74qD5s?si=1v8nRA_0-nZ3pN6q" title="Pickleball DUPR Rating" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 A DUPR Rating is an algorithmic rating system for pickleball players. It provides pickleball players with a score between 2.0 and 8.0 to determine their skill level. It’s supposed to be more accurate than self-rating and UPTR ratings because it includes more data points to measure from. 
 
