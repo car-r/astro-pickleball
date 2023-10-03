@@ -5,7 +5,7 @@ description: "Five reasons why pickleball is becoming so popular and why it's so
 pubDate: "Nov 6 2022"
 heroImage: "/images/pickleball-is-exploding-in-popularity.jpg"
 featured: true
-trending: true
+trending: false
 readTime: '4'
 tags: 
   - "pickleball"

@@ -5,7 +5,7 @@ description: "Dominate the competition with the Erne Shot in Pickleball! Master 
 pubDate: "August 10 2023"
 heroImage: "/images/pickleball-erne-feature-image.jpg"
 featured: true
-trending: true
+trending: false
 readTime: '6'
 tags: 
   - "education"
