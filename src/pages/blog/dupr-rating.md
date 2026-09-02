@@ -13,6 +13,8 @@ tags:
 
 Did you hear someone mention their DUPR rating and have no idea what they’re talking about? In this guide, we'll tell you everything you need to know about DUPR ratings and how they’re different from self-rating and other <a href="/blog/pickleball-ratings">pickleball rating</a> systems. 
 
+> Want a starting number before you log matches? The [Pickleballr rating estimator](/tools/rating-estimator) is a rec skill snapshot — not a DUPR rating. [Get a real DUPR](https://www.dupr.com) by playing real matches.
+
 ## What is a DUPR Rating?
 
 <!-- [![Promotional video about pickleball DUPR Rating](https://i3.ytimg.com/vi/2z2RM74qD5s/maxresdefault.jpg)](https://www.youtube.com/watch?v=2z2RM74qD5s "Pickleball DUPR Rating") -->

@@ -1,0 +1,249 @@
+---
+import Container from '../../layouts/Container.astro';
+import Layout from '../../layouts/Layout.astro';
+import QuizFlow from '../../components/tools/QuizFlow.astro';
+import SkillSnapshotDisclaimer from '../../components/tools/SkillSnapshotDisclaimer.astro';
+import RelatedToolArticles from '../../components/tools/RelatedToolArticles.astro';
+import { SITE_URL } from '../../config';
+import { faqPageJsonLd } from '../../utils/jsonld';
+import {
+	assertRatingEstimatorSanity,
+	questions,
+} from '../../lib/tools/ratingEstimator';
+
+assertRatingEstimatorSanity();
+
+const pageUrl = `${SITE_URL}/tools/rating-estimator`;
+const title = 'Pickleball Rating Estimator (Not DUPR) | Pickleballr';
+const description =
+	'Rec-player skill snapshot on a 2.0–4.5 scale. Not DUPR.';
+
+const faqs = [
+	{
+		question: 'Is this DUPR?',
+		answer:
+			'No. This is a Pickleballr skill snapshot for rec play and tournament self-entry. It is not DUPR, not UTR-P, and not an official rating. DUPR only moves when you log real matches. Get a real DUPR at dupr.com.',
+	},
+	{
+		question: 'Can a quiz give 5.0?',
+		answer:
+			'No. A quiz cannot rate 5.0+ players. The highest this estimator will show is 4.5, with a range that tops out at 4.7. If every answer is maxed, we tell you to get a DUPR.',
+	},
+	{
+		question: 'How do I use this number for tournament self-entry?',
+		answer:
+			'Treat the number as ±0.25 and start at the lower end of a tournament bracket. If we show 3.5, enter 3.5 or 3.0 — not 4.0. The snapshot is for self-entry, not an official rating.',
+	},
+	{
+		question: 'What is a bottleneck cap?',
+		answer:
+			'A bottleneck cap is a ceiling we apply after the weighted average. If your third shot, dinks, resets, backhand, who you beat, or experience is still at 3.0 or below, the snapshot cannot jump past that skill. One weak skill holds the number down on purpose.',
+	},
+];
+---
+
+<Layout
+	title={title}
+	description={description}
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Tools', url: `${SITE_URL}/tools` },
+		{ name: 'Rating estimator', url: pageUrl },
+	]}
+	jsonLd={[
+		{
+			'@type': 'WebPage',
+			name: 'Pickleball Rating Estimator (Not DUPR)',
+			description,
+			url: pageUrl,
+		},
+		faqPageJsonLd(faqs),
+	]}
+>
+	<Container>
+		<main class="py-10 md:py-16 max-w-3xl">
+			<nav class="mb-6 text-sm text-zinc-600" aria-label="Breadcrumb">
+				<ol class="flex flex-wrap gap-2">
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/">Home</a></li>
+					<li aria-hidden="true">›</li>
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/tools">Tools</a></li>
+					<li aria-hidden="true">›</li>
+					<li aria-current="page">Rating estimator</li>
+				</ol>
+			</nav>
+
+			<section id="estimator-landing">
+				<div class="mb-6">
+					<SkillSnapshotDisclaimer />
+				</div>
+				<h1 class="text-3xl md:text-5xl font-bold mb-4">Pickleball Rating Estimator</h1>
+				<p class="text-base md:text-xl text-zinc-800 mb-3">
+					Answer 10 rec-court questions for a skill snapshot on a 2.0–4.5 scale. Use it for open play and tournament self-entry — then get a real DUPR when you log matches.
+				</p>
+				<p class="text-base md:text-lg font-semibold text-zinc-700 mb-8">Takes ~60–90 seconds.</p>
+				<button
+					id="start-estimator"
+					type="button"
+					class="px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500"
+				>
+					Start the 10 questions
+				</button>
+
+				<div class="mt-12">
+					<RelatedToolArticles />
+				</div>
+
+				<section class="mt-12" aria-labelledby="estimator-faq-heading">
+					<h2 id="estimator-faq-heading" class="text-xl font-bold mb-4">FAQ</h2>
+					<dl class="flex flex-col gap-6">
+						{faqs.map((faq) => (
+							<div>
+								<dt class="font-semibold text-zinc-900">{faq.question}</dt>
+								<dd class="mt-1 text-zinc-700">{faq.answer}</dd>
+							</div>
+						))}
+					</dl>
+				</section>
+			</section>
+
+			<section id="estimator-quiz" hidden>
+				<div class="mb-6">
+					<SkillSnapshotDisclaimer compact />
+				</div>
+				<QuizFlow questions={questions} />
+			</section>
+
+			<section id="estimator-results" hidden>
+				<div class="mb-6">
+					<SkillSnapshotDisclaimer />
+				</div>
+				<p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Your Pickleballr estimate</p>
+				<p id="result-display" class="text-6xl md:text-7xl font-bold text-zinc-900 leading-none mt-2"></p>
+				<p id="result-range" class="mt-3 text-lg text-zinc-700"></p>
+				<p id="result-max" class="hidden mt-4 rounded-lg bg-white border border-lime-400 px-4 py-3 font-semibold text-zinc-900"></p>
+				<p class="mt-4 text-zinc-800">
+					This is not a DUPR rating. DUPR only moves when you log real matches.
+				</p>
+
+				<section class="mt-8 rounded-xl bg-white p-5 shadow-md border border-zinc-200" id="result-why-card">
+					<h2 class="text-xl font-bold mb-3">What is capping you</h2>
+					<p class="text-sm text-zinc-500 mb-3">Why this number — the shareable part.</p>
+					<ul id="result-why" class="flex flex-col gap-2 text-zinc-800"></ul>
+				</section>
+
+				<section class="mt-8">
+					<h2 class="text-xl font-bold mb-2">Play next with</h2>
+					<p id="result-play-next" class="text-zinc-800"></p>
+				</section>
+
+				<section class="mt-8">
+					<h2 class="text-xl font-bold mb-2">Next 3 things to practice</h2>
+					<ol id="result-practice" class="list-decimal pl-5 flex flex-col gap-2 text-zinc-800"></ol>
+				</section>
+
+				<p class="mt-8">
+					<a
+						class="text-green-600 underline hover:text-pink-500"
+						href="https://www.dupr.com"
+						rel="noopener noreferrer"
+					>
+						Get a real DUPR
+					</a>
+					at dupr.com.
+				</p>
+
+				<div class="mt-10">
+					<RelatedToolArticles />
+				</div>
+
+				<button
+					id="estimator-restart"
+					type="button"
+					class="mt-10 px-4 py-2 rounded-lg border-2 border-zinc-300 bg-white font-semibold text-zinc-800 hover:border-zinc-400"
+				>
+					Start over
+				</button>
+			</section>
+		</main>
+	</Container>
+</Layout>
+
+<script>
+	import {
+		estimateRating,
+		formatRating,
+		type RatingEstimate,
+	} from '../../lib/tools/ratingEstimator';
+
+	const landing = document.getElementById('estimator-landing');
+	const quiz = document.getElementById('estimator-quiz');
+	const results = document.getElementById('estimator-results');
+	const quizRoot = document.querySelector('[data-quiz-root]');
+
+	function show(view: 'landing' | 'quiz' | 'results') {
+		if (landing) landing.hidden = view !== 'landing';
+		if (quiz) quiz.hidden = view !== 'quiz';
+		if (results) results.hidden = view !== 'results';
+		window.scrollTo(0, 0);
+	}
+
+	function renderResults(result: RatingEstimate) {
+		const displayEl = document.getElementById('result-display');
+		const rangeEl = document.getElementById('result-range');
+		const maxEl = document.getElementById('result-max');
+		const whyEl = document.getElementById('result-why');
+		const playEl = document.getElementById('result-play-next');
+		const practiceEl = document.getElementById('result-practice');
+
+		if (displayEl) {
+			displayEl.textContent = formatRating(result.display);
+		}
+		if (rangeEl) {
+			rangeEl.textContent = `Range: ${formatRating(result.rangeLo)}–${formatRating(result.rangeHi)}`;
+		}
+		if (maxEl) {
+			if (result.maxQuizMessage) {
+				maxEl.textContent = result.maxQuizMessage;
+				maxEl.classList.remove('hidden');
+			} else {
+				maxEl.textContent = '';
+				maxEl.classList.add('hidden');
+			}
+		}
+		if (whyEl) {
+			whyEl.replaceChildren();
+			for (const line of result.why) {
+				const li = document.createElement('li');
+				li.textContent = line;
+				whyEl.appendChild(li);
+			}
+		}
+		if (playEl) playEl.textContent = result.playNext;
+		if (practiceEl) {
+			practiceEl.replaceChildren();
+			for (const line of result.practice) {
+				const li = document.createElement('li');
+				li.textContent = line;
+				practiceEl.appendChild(li);
+			}
+		}
+	}
+
+	document.getElementById('start-estimator')?.addEventListener('click', () => {
+		show('quiz');
+		const legend = quizRoot?.querySelector('legend');
+		if (legend instanceof HTMLElement) legend.focus();
+	});
+
+	document.getElementById('estimator-restart')?.addEventListener('click', () => {
+		quizRoot?.dispatchEvent(new Event('quizreset'));
+		show('landing');
+	});
+
+	quizRoot?.addEventListener('quizcomplete', (event) => {
+		const detail = (event as CustomEvent<{ answers: Record<string, number> }>).detail;
+		const result = estimateRating(detail.answers);
+		renderResults(result);
+		show('results');
+	});
+</script>

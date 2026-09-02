@@ -13,6 +13,8 @@ tags:
 
 Curious about your pickleball rating? Not sure if you're a newbie or a seasoned pro on the courts? Well, get ready to dive headfirst into the world of pickleball ratings. In this guide, we'll go over everything you need about pickleball ratings, how to determine your rating, and the differences between pickleball rating systems.
 
+> **Not DUPR.** For a 2.0–4.5 rec skill snapshot, use the [Pickleballr rating estimator](/tools/rating-estimator). Treat it as ±0.25 and start at the lower end of a tournament bracket.
+
 ## What are Pickleball Ratings?
 
 Pickleball ratings are a way to measure the skill level of players in pickleball. Ratings typically range from 1.0 (beginner) to 5.0 (professional). Knowing your rating helps you find the right groups to play in. USA Pickleball has a detailed ratings system that takes into account a player's knowledge of the rules and their ability to serve, return, rally, and play at the net.

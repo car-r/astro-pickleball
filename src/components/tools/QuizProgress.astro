@@ -1,0 +1,32 @@
+---
+interface Props {
+	current: number;
+	total: number;
+}
+
+const { current, total } = Astro.props;
+const pct = Math.round((current / total) * 100);
+---
+
+<div data-quiz-progress class="flex flex-col gap-2">
+	<div class="flex justify-between text-sm text-zinc-600">
+		<span data-quiz-progress-label>Question {current} of {total}</span>
+		<span data-quiz-progress-pct>{pct}%</span>
+	</div>
+	<div
+		data-quiz-progressbar
+		class="h-2 bg-zinc-200 rounded-full overflow-hidden"
+		role="progressbar"
+		aria-valuemin="1"
+		aria-valuemax={total}
+		aria-valuenow={current}
+		aria-label="Quiz progress"
+	>
+		<div
+			data-quiz-progress-fill
+			class="h-full bg-lime-400 transition-all duration-200"
+			style={`width: ${pct}%`}
+		>
+		</div>
+	</div>
+</div>
