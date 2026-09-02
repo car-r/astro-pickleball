@@ -57,7 +57,7 @@ export const questions: QuizQuestion[] = [
 	},
 	{
 		id: 'rally',
-		prompt: 'Neutral rally vs equals',
+		prompt: 'How long can you keep a rally going against someone your speed?',
 		options: [
 			{ value: 2.0, label: '2–4 shots, many in the net' },
 			{ value: 3.0, label: '5–8 if they keep it friendly' },
@@ -202,7 +202,7 @@ const PRACTICE_LINES: Record<QuestionId, string> = {
 	backhand: 'Backhand: stop running around it. Keep it in play, then learn to redirect.',
 	speedup: 'Hands at the kitchen: survive first. Hold your own before you speed up.',
 	serve_return: 'Serve and return: aim for depth most times, then vary to move them.',
-	rally: 'Neutral rally: hold medium pace and reset instead of ending the point in 2–4 shots.',
+	rally: 'Keep rallies going against people your speed. Hold medium pace and reset instead of ending the point in 2–4 shots.',
 	position: 'Doubles positioning: get to the kitchen as a pair, then stack or switch on purpose.',
 	who_you_beat: 'Who you beat: play the level you actually beat more often. Stretch one bracket, do not skip two.',
 	experience: 'Time on court: league and tournament reps. A quiz cannot replace match volume.',
