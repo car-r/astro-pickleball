@@ -1,15 +1,31 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-// import '../styles/global.css';
+import { SITE_TITLE, DEFAULT_OG_IMAGE } from '../config';
 
 export interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	type?: 'website' | 'article';
+	jsonLd?: Record<string, unknown> | Record<string, unknown>[] | string;
 }
 
-const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
+const {
+	title,
+	description,
+	image = DEFAULT_OG_IMAGE,
+	type = 'website',
+	jsonLd,
+} = Astro.props;
+
+const site = Astro.site ?? new URL('https://www.pickleballr.io');
+const canonicalURL = new URL(Astro.url.pathname, site);
+const imageURL = new URL(image, site);
+
+const jsonLdString = jsonLd
+	? typeof jsonLd === 'string'
+		? jsonLd
+		: JSON.stringify(jsonLd)
+	: undefined;
 ---
 
 <!-- Global Metadata -->
@@ -22,17 +38,23 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={imageURL} />
+<meta property="og:site_name" content={SITE_TITLE} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalURL} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageURL} />
+
+{jsonLdString && (
+	<script is:inline type="application/ld+json" set:html={jsonLdString}></script>
+)}

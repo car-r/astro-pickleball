@@ -5,7 +5,17 @@ import Layout from "../layouts/Layout.astro"
 
 
 
-<Layout title="About">
+<Layout
+    title="About Pickleballr | Pickleball Guides and Reviews"
+    description="Pickleballr covers pickleball equipment, paddle reviews, strategy, and technique for new and experienced players."
+    jsonLd={{
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        name: 'About Pickleballr',
+        description: 'Pickleballr covers pickleball equipment, paddle reviews, strategy, and technique for new and experienced players.',
+        url: 'https://www.pickleballr.io/about',
+    }}
+>
     <Container>
         <div class="pt-20 py-10">
             <!-- <h1 class="text-5xl md:text-6xl font-bold text-center ">About Pickleball<span class="text-lime-400">r</span>.</h1>

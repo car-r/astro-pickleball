@@ -14,7 +14,26 @@ const trendingPosts = posts.filter(post => post.frontmatter.trending === true)
 const recentPosts = posts.filter(post => post.frontmatter.trending != true)
 ---
 
-<Layout title="Welcome to Pickleballr">
+<Layout
+	title="Pickleball Tips, Rules, Paddle Reviews & Strategy | Pickleballr"
+	description="Guides to pickleball rules, ratings, serving, paddles, and strategy from Pickleballr."
+	jsonLd={{
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'WebSite',
+				name: 'Pickleballr',
+				url: 'https://www.pickleballr.io',
+			},
+			{
+				'@type': 'Organization',
+				name: 'Pickleballr',
+				url: 'https://www.pickleballr.io',
+				sameAs: ['https://twitter.com/pickleballrio'],
+			},
+		],
+	}}
+>
 	<main class="mx-auto pb-20">
         <section class="flex flex-col gap-2 px-4 py-20 text-center bg-pink-500">
             <h1 class="text-5xl sm:text-7xl md:text-8xl font-bold text-zinc-50">Pickleball<span class="text-lime-400">r</span>.</h1>

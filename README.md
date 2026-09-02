@@ -48,3 +48,12 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 # astro-pickleball
+
+
+## SEO / crawlers
+
+Production origin: `https://www.pickleballr.io`
+
+- `public/robots.txt` allows all crawlers and points to `https://www.pickleballr.io/sitemap-index.xml`.
+- `@astrojs/sitemap` (Astro 2) emits `sitemap-index.xml` and `sitemap-0.xml` at build time.
+- Crawlers that request `/sitemap.xml` are covered by `public/sitemap.xml`, a sitemap index that references `sitemap-0.xml`. Hitting `/sitemap.xml` is not the Astro v2 integration's native filename (`sitemap-index.xml`).

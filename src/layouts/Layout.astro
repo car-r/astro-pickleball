@@ -1,22 +1,23 @@
 ---
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_DESCRIPTION } from '../config';
 
 export interface Props {
 	title: string;
+	description?: string;
+	image?: string;
+	jsonLd?: Record<string, unknown> | Record<string, unknown>[] | string;
 }
 
-const { title } = Astro.props;
+const { title, description = SITE_DESCRIPTION, image, jsonLd } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<BaseHead title={title} description={description} image={image} jsonLd={jsonLd} />
 	</head>
 	<body class=" bg-zinc-100">
 		<Header />

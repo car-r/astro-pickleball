@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import PostCard from "../components/PostCard.astro";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "../config";
 
 export interface Props {
 	content: {
@@ -18,27 +19,59 @@ const {
     content: {title, description, pubDate, updatedDate, heroImage, tags},
 } = Astro.props
 
-// Use Astro.glob() to fetch all posts, and then sort them by date.
 const posts = (await Astro.glob('../pages/blog/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 
 const currentTags = Astro.props.content.tags
 const tagString = currentTags?.toLocaleString()
-console.log('current tags ->', currentTags)
-console.log('posts.length ->', posts.length)
-console.log('frontmatter ->', posts[0].frontmatter.tags)
 const relatedPosts = posts.filter(post => post.frontmatter.tags === currentTags)
 const relatedPosts2 = posts.filter(post => post.frontmatter.tags.includes(tagString))
-console.log('relatedPosts ->', relatedPosts.length)
-console.log('relatedPosts2 ->', relatedPosts2.length)
+
+const site = Astro.site ?? new URL(SITE_URL);
+const canonicalURL = new URL(Astro.url.pathname, site);
+const ogImage = heroImage || DEFAULT_OG_IMAGE;
+const imageURL = new URL(ogImage, site);
+
+const toIsoDate = (value?: string) => {
+	if (!value) return undefined;
+	const parsed = new Date(value);
+	return Number.isNaN(parsed.valueOf()) ? undefined : parsed.toISOString();
+};
+
+const articleJsonLd: Record<string, unknown> = {
+	'@context': 'https://schema.org',
+	'@type': 'Article',
+	headline: title,
+	description,
+	image: imageURL.href,
+	author: {
+		'@type': 'Organization',
+		name: 'Pickleballr',
+		url: SITE_URL,
+	},
+	publisher: {
+		'@type': 'Organization',
+		name: 'Pickleballr',
+		url: SITE_URL,
+	},
+	mainEntityOfPage: {
+		'@type': 'WebPage',
+		'@id': canonicalURL.href,
+	},
+};
+
+const datePublished = toIsoDate(pubDate);
+const dateModified = toIsoDate(updatedDate) || datePublished;
+if (datePublished) articleJsonLd.datePublished = datePublished;
+if (dateModified) articleJsonLd.dateModified = dateModified;
 
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <BaseHead title={title} description={description}/>
+        <BaseHead title={title} description={description} image={ogImage} type="article" jsonLd={articleJsonLd} />
     </head>
     <body class="bg-zinc-100">
         <Header />
