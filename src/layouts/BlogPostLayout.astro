@@ -1,32 +1,24 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
-import PostCard from "../components/PostCard.astro";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "../config";
 
-export interface Props {
-	content: {
-		title: string;
-		description: string;
-		pubDate?: string;
-		updatedDate?: string;
-		heroImage?: string;
-		tags?: string[];
-	};
+interface BlogFrontmatter {
+	title: string;
+	description: string;
+	pubDate?: string;
+	updatedDate?: string;
+	heroImage?: string;
+	tags?: string[];
 }
 
-const {
-    content: {title, description, pubDate, updatedDate, heroImage, tags},
-} = Astro.props
+export interface Props {
+	frontmatter?: BlogFrontmatter;
+	content?: BlogFrontmatter;
+}
 
-const posts = (await Astro.glob('../pages/blog/*.{md,mdx}')).sort(
-	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
-);
-
-const currentTags = Astro.props.content.tags
-const tagString = currentTags?.toLocaleString()
-const relatedPosts = posts.filter(post => post.frontmatter.tags === currentTags)
-const relatedPosts2 = posts.filter(post => post.frontmatter.tags.includes(tagString))
+const data = (Astro.props.frontmatter ?? Astro.props.content) as BlogFrontmatter;
+const { title, description, pubDate, updatedDate, heroImage } = data;
 
 const site = Astro.site ?? new URL(SITE_URL);
 const canonicalURL = new URL(Astro.url.pathname, site);
@@ -65,7 +57,6 @@ const datePublished = toIsoDate(pubDate);
 const dateModified = toIsoDate(updatedDate) || datePublished;
 if (datePublished) articleJsonLd.datePublished = datePublished;
 if (dateModified) articleJsonLd.dateModified = dateModified;
-
 ---
 
 <!DOCTYPE html>
@@ -90,12 +81,7 @@ if (dateModified) articleJsonLd.dateModified = dateModified;
                 {pubDate && <time class=" text-stone-700">{pubDate}</time>}
 				{updatedDate && <div class="text-stone-500 ">Last updated on <time>{updatedDate}</time></div>}
                 <slot />
-                <!-- <div class="text-black">{featuredPost.frontmatter.title}</div> -->
             </article>
-            <!-- {relatedPosts2.map((post:any ) => (
-                <PostCard post={post}/>
-            ))} -->
-            
         </main>
     </body>
 </html>
