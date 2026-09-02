@@ -1,0 +1,283 @@
+---
+import Container from '../../layouts/Container.astro';
+import Layout from '../../layouts/Layout.astro';
+import LeadTapeFlow from '../../components/tools/LeadTapeFlow.astro';
+import LeadTapeRelatedArticles from '../../components/tools/LeadTapeRelatedArticles.astro';
+import PaddleClockMap from '../../components/tools/PaddleClockMap.astro';
+import { SITE_URL } from '../../config';
+import { faqPageJsonLd } from '../../utils/jsonld';
+import { assertLeadTapeSanity, questions } from '../../lib/tools/leadTape';
+
+assertLeadTapeSanity();
+
+const pageUrl = `${SITE_URL}/tools/lead-tape`;
+const title = 'Lead Tape Calculator: Where to Put Weight | Pickleballr';
+const description =
+	'Find where to put lead tape on your pickleball paddle. Clock-face recipe for 12, 3 & 9, 4 & 8, and throat. Start tiny; most rec players add 2–8g.';
+
+const faqs = [
+	{
+		question: 'How much lead tape should I add?',
+		answer:
+			'Most rec players land around 2–8g total. Start tiny, play 3 sessions, then add 1g per side max.',
+	},
+	{
+		question: 'Is lead tape legal?',
+		answer:
+			'Rec play is fine. For sanctioned play, added tape is a modification — see the illegal paddles article.',
+	},
+	{
+		question: 'Lead vs tungsten?',
+		answer: 'Cover lead; tungsten is the non-lead alternative.',
+	},
+	{
+		question: '1/4 vs 1/2 inch?',
+		answer:
+			'Edgeless or 13mm-or-less → 1/4". Else 1/2". Matches the lead tape article.',
+	},
+];
+---
+
+<Layout
+	title={title}
+	description={description}
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Tools', url: `${SITE_URL}/tools` },
+		{ name: 'Lead tape', url: pageUrl },
+	]}
+	jsonLd={[
+		{
+			'@type': 'WebPage',
+			name: 'Lead Tape Calculator',
+			description,
+			url: pageUrl,
+		},
+		faqPageJsonLd(faqs),
+	]}
+>
+	<Container>
+		<main class="py-10 md:py-16 max-w-3xl">
+			<nav class="mb-6 text-sm text-zinc-600" aria-label="Breadcrumb">
+				<ol class="flex flex-wrap gap-2">
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/">Home</a></li>
+					<li aria-hidden="true">›</li>
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/tools">Tools</a></li>
+					<li aria-hidden="true">›</li>
+					<li aria-current="page">Lead tape</li>
+				</ol>
+			</nav>
+
+			<section id="tape-landing">
+				<h1 class="text-3xl md:text-5xl font-bold mb-4">Lead Tape Calculator</h1>
+				<p class="text-base md:text-xl text-zinc-800 mb-3">
+					This is a recipe, not a physics sim: clock model 12 / 3+9 / 4+8 / throat. Start tiny — most rec players land around 2–8g.
+				</p>
+				<p class="text-base md:text-lg font-semibold text-zinc-700 mb-8">Takes ~60–90 seconds.</p>
+				<button
+					id="start-tape"
+					type="button"
+					class="px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500"
+				>
+					Start the 7 questions
+				</button>
+
+				<div class="mt-12">
+					<LeadTapeRelatedArticles />
+				</div>
+
+				<section class="mt-12" aria-labelledby="tape-faq-heading">
+					<h2 id="tape-faq-heading" class="text-xl font-bold mb-4">FAQ</h2>
+					<dl class="flex flex-col gap-6">
+						{faqs.map((faq) => (
+							<div>
+								<dt class="font-semibold text-zinc-900">{faq.question}</dt>
+								<dd class="mt-1 text-zinc-700">
+									{faq.question === 'Is lead tape legal?' ? (
+										<>
+											Rec play is fine. For sanctioned play, added tape is a modification — see
+											{' '}
+											<a class="text-green-600 underline hover:text-pink-500" href="/blog/illegal-pickleball-paddles">
+												illegal pickleball paddles
+											</a>.
+										</>
+									) : (
+										faq.answer
+									)}
+								</dd>
+							</div>
+						))}
+					</dl>
+				</section>
+			</section>
+
+			<section id="tape-quiz" hidden>
+				<LeadTapeFlow questions={questions} />
+			</section>
+
+			<section id="tape-results" hidden>
+				<p
+					id="result-override"
+					class="hidden mb-6 rounded-lg border-2 border-lime-400 bg-lime-50 px-4 py-3 font-semibold text-zinc-900"
+				>
+				</p>
+
+				<section class="rounded-xl bg-white p-4 md:p-6 shadow-md border-2 border-lime-400">
+					<p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Your recipe</p>
+					<h2 class="text-2xl font-bold mt-1 mb-4">Where to put the tape</h2>
+					<PaddleClockMap />
+					<ul id="result-zones" class="mt-6 flex flex-col gap-2 text-zinc-800"></ul>
+					<dl class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+						<div class="rounded-lg bg-zinc-50 border border-zinc-200 px-3 py-3">
+							<dt class="text-sm text-zinc-500">Total</dt>
+							<dd id="result-total" class="text-2xl font-bold text-zinc-900"></dd>
+						</div>
+						<div class="rounded-lg bg-zinc-50 border border-zinc-200 px-3 py-3">
+							<dt class="text-sm text-zinc-500">New weight</dt>
+							<dd id="result-weight" class="text-2xl font-bold text-zinc-900"></dd>
+						</div>
+						<div class="rounded-lg bg-zinc-50 border border-zinc-200 px-3 py-3">
+							<dt class="text-sm text-zinc-500">Tape width</dt>
+							<dd id="result-width" class="text-2xl font-bold text-zinc-900"></dd>
+						</div>
+					</dl>
+				</section>
+
+				<section class="mt-8 rounded-xl bg-white p-5 shadow-md border border-zinc-200">
+					<h2 class="text-xl font-bold mb-3">How to start</h2>
+					<p id="result-start" class="text-zinc-800"></p>
+					<p id="result-why" class="mt-3 text-zinc-800"></p>
+					<p id="result-avoid" class="mt-3 font-semibold text-zinc-900"></p>
+				</section>
+
+				<section class="mt-8 rounded-xl bg-white p-5 shadow-md border border-zinc-200">
+					<h2 class="text-xl font-bold mb-3">Guardrails</h2>
+					<ul class="flex flex-col gap-3 text-zinc-800 list-disc pl-5">
+						<li>Cover lead tape with edge tape or electrical tape. Do not chew it, sand it, or leave it bare.</li>
+						<li>Tungsten tape is the non-lead alternative.</li>
+						<li>
+							USA Pickleball: added tape is a modification. Rec play is fine; sanctioned play can be picky.
+							{' '}
+							<a class="text-green-600 underline hover:text-pink-500" href="/blog/illegal-pickleball-paddles">
+								Illegal pickleball paddles
+							</a>.
+						</li>
+						<li>If you already have tape, weigh the paddle first and treat existing tape as part of the weight you entered.</li>
+					</ul>
+				</section>
+
+				<div class="mt-10">
+					<LeadTapeRelatedArticles />
+				</div>
+
+				<button
+					id="tape-restart"
+					type="button"
+					class="mt-10 px-4 py-2 rounded-lg border-2 border-zinc-300 bg-white font-semibold text-zinc-800 hover:border-zinc-400"
+				>
+					Start over
+				</button>
+			</section>
+		</main>
+	</Container>
+</Layout>
+
+<script>
+	import {
+		CLOCK_LABELS,
+		recommendLeadTape,
+		type Clock,
+		type LeadTapeCompleteDetail,
+		type LeadTapeRecipe,
+	} from '../../lib/tools/leadTape';
+
+	const landing = document.getElementById('tape-landing');
+	const quiz = document.getElementById('tape-quiz');
+	const results = document.getElementById('tape-results');
+	const quizRoot = document.querySelector('[data-lead-tape-root]');
+
+	function show(view: 'landing' | 'quiz' | 'results') {
+		if (landing) landing.hidden = view !== 'landing';
+		if (quiz) quiz.hidden = view !== 'quiz';
+		if (results) results.hidden = view !== 'results';
+		window.scrollTo(0, 0);
+	}
+
+	function renderPaddle(recipe: LeadTapeRecipe) {
+		const grams = Object.fromEntries(recipe.zones.map((z) => [z.clock, z.grams])) as Partial<
+			Record<Clock, number>
+		>;
+		document.querySelectorAll<HTMLElement>('[data-clock]').forEach((el) => {
+			const clock = el.dataset.clock as Clock;
+			const g = grams[clock] ?? 0;
+			el.dataset.lit = g > 0 ? 'true' : 'false';
+			const circle = el.querySelector('circle');
+			if (circle) circle.setAttribute('r', g > 0 ? '18' : '11');
+			const label = el.querySelector('[data-grams]');
+			if (label) label.textContent = g > 0 ? `${g}g` : '';
+		});
+	}
+
+	function renderResults(recipe: LeadTapeRecipe) {
+		const overrideEl = document.getElementById('result-override');
+		const zonesEl = document.getElementById('result-zones');
+		const totalEl = document.getElementById('result-total');
+		const weightEl = document.getElementById('result-weight');
+		const widthEl = document.getElementById('result-width');
+		const startEl = document.getElementById('result-start');
+		const whyEl = document.getElementById('result-why');
+		const avoidEl = document.getElementById('result-avoid');
+
+		if (overrideEl) {
+			if (recipe.overrideNote) {
+				overrideEl.textContent = recipe.overrideNote;
+				overrideEl.classList.remove('hidden');
+			} else {
+				overrideEl.textContent = '';
+				overrideEl.classList.add('hidden');
+			}
+		}
+
+		if (zonesEl) {
+			zonesEl.replaceChildren();
+			for (const zone of recipe.zones) {
+				const li = document.createElement('li');
+				li.className = 'flex justify-between gap-3 border-b border-zinc-100 pb-2 text-lg';
+				const name = document.createElement('span');
+				name.textContent = CLOCK_LABELS[zone.clock];
+				const grams = document.createElement('span');
+				grams.className = 'font-bold tabular-nums';
+				grams.textContent = `${zone.grams}g`;
+				li.append(name, grams);
+				zonesEl.appendChild(li);
+			}
+		}
+
+		if (totalEl) totalEl.textContent = `${recipe.totalGrams}g`;
+		if (weightEl) weightEl.textContent = `${recipe.newWeightOz.toFixed(2)} oz`;
+		if (widthEl) widthEl.textContent = recipe.tapeWidth;
+		if (startEl) startEl.textContent = recipe.startRule;
+		if (whyEl) whyEl.textContent = recipe.why;
+		if (avoidEl) avoidEl.textContent = recipe.avoid;
+
+		renderPaddle(recipe);
+	}
+
+	document.getElementById('start-tape')?.addEventListener('click', () => {
+		show('quiz');
+		const legend = quizRoot?.querySelector('legend');
+		if (legend instanceof HTMLElement) legend.focus();
+	});
+
+	document.getElementById('tape-restart')?.addEventListener('click', () => {
+		quizRoot?.dispatchEvent(new Event('quizreset'));
+		show('landing');
+	});
+
+	quizRoot?.addEventListener('quizcomplete', (event) => {
+		const detail = (event as CustomEvent<LeadTapeCompleteDetail>).detail;
+		const recipe = recommendLeadTape(detail.answers);
+		renderResults(recipe);
+		show('results');
+	});
+</script>

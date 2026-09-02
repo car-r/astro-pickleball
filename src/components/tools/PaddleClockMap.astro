@@ -1,0 +1,111 @@
+---
+---
+
+<figure class="w-full max-w-md mx-auto" data-paddle-map>
+	<svg
+		viewBox="0 0 280 480"
+		class="w-full h-auto"
+		role="img"
+		aria-labelledby="paddle-map-title paddle-map-desc"
+	>
+		<title id="paddle-map-title">Lead tape placement on a pickleball paddle</title>
+		<desc id="paddle-map-desc">Clock-face map. Lit spots are the recommended tape locations.</desc>
+
+		<!-- Paddle silhouette -->
+		<path
+			d="M 96 50
+			   C 96 18, 184 18, 184 50
+			   C 226 96, 238 176, 210 242
+			   C 198 268, 168 280, 158 284
+			   L 158 430
+			   C 158 452, 122 452, 122 430
+			   L 122 284
+			   C 112 280, 82 268, 70 242
+			   C 42 176, 54 96, 96 50
+			   Z"
+			fill="#27272a"
+			stroke="#3f3f46"
+			stroke-width="3"
+		/>
+		<!-- Face inset -->
+		<ellipse cx="140" cy="150" rx="58" ry="96" fill="#18181b" opacity="0.45" />
+		<!-- Grip wraps -->
+		<g stroke="#52525b" stroke-width="2" fill="none">
+			<line x1="126" y1="310" x2="154" y2="310" />
+			<line x1="126" y1="328" x2="154" y2="328" />
+			<line x1="126" y1="346" x2="154" y2="346" />
+			<line x1="126" y1="364" x2="154" y2="364" />
+			<line x1="126" y1="382" x2="154" y2="382" />
+			<line x1="126" y1="400" x2="154" y2="400" />
+		</g>
+
+		<!-- Always-on clock labels -->
+		<g fill="#71717a" font-size="13" font-weight="700" text-anchor="middle" font-family="system-ui, sans-serif">
+			<text x="140" y="16">12</text>
+			<text x="46" y="58">11</text>
+			<text x="234" y="58">1</text>
+			<text x="18" y="154">9</text>
+			<text x="262" y="154">3</text>
+			<text x="42" y="246">8</text>
+			<text x="238" y="246">4</text>
+			<text x="140" y="470">throat</text>
+		</g>
+
+		<!-- Hotspots: 12, 11, 1, 3, 9, 4, 8, throat -->
+		<g data-clock="12" class="paddle-hotspot">
+			<circle cx="140" cy="28" r="11" />
+			<text data-grams x="140" y="33" text-anchor="middle"></text>
+		</g>
+		<g data-clock="11" class="paddle-hotspot">
+			<circle cx="72" cy="62" r="11" />
+			<text data-grams x="72" y="67" text-anchor="middle"></text>
+		</g>
+		<g data-clock="1" class="paddle-hotspot">
+			<circle cx="208" cy="62" r="11" />
+			<text data-grams x="208" y="67" text-anchor="middle"></text>
+		</g>
+		<g data-clock="9" class="paddle-hotspot">
+			<circle cx="50" cy="148" r="11" />
+			<text data-grams x="50" y="153" text-anchor="middle"></text>
+		</g>
+		<g data-clock="3" class="paddle-hotspot">
+			<circle cx="230" cy="148" r="11" />
+			<text data-grams x="230" y="153" text-anchor="middle"></text>
+		</g>
+		<g data-clock="8" class="paddle-hotspot">
+			<circle cx="68" cy="228" r="11" />
+			<text data-grams x="68" y="233" text-anchor="middle"></text>
+		</g>
+		<g data-clock="4" class="paddle-hotspot">
+			<circle cx="212" cy="228" r="11" />
+			<text data-grams x="212" y="233" text-anchor="middle"></text>
+		</g>
+		<g data-clock="throat" class="paddle-hotspot">
+			<circle cx="140" cy="286" r="11" />
+			<text data-grams x="140" y="291" text-anchor="middle"></text>
+		</g>
+	</svg>
+</figure>
+
+<style>
+	.paddle-hotspot circle {
+		fill: #d4d4d8;
+		stroke: #71717a;
+		stroke-width: 2;
+	}
+	.paddle-hotspot text {
+		fill: #18181b;
+		font-size: 11px;
+		font-weight: 700;
+		font-family: system-ui, sans-serif;
+		display: none;
+	}
+	.paddle-hotspot[data-lit='true'] circle {
+		fill: #a3e635;
+		stroke: #18181b;
+		stroke-width: 2.5;
+	}
+	.paddle-hotspot[data-lit='true'] text {
+		display: block;
+	}
+</style>

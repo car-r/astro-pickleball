@@ -6,7 +6,7 @@ import { SITE_URL } from '../../config';
 
 <Layout
 	title="Pickleball Tools | Pickleballr"
-	description="Rec-player tools from Pickleballr. Start with the rating estimator — a 2.0–4.5 skill snapshot. Not DUPR."
+	description="Rec-player tools from Pickleballr. Rating estimator and lead tape calculator. No accounts. No email."
 	breadcrumbs={[
 		{ name: 'Home', url: SITE_URL },
 		{ name: 'Tools', url: `${SITE_URL}/tools` },
@@ -25,16 +25,28 @@ import { SITE_URL } from '../../config';
 			<p class="text-base md:text-xl text-zinc-700 mb-8">
 				Simple rec-player tools. No accounts. No email capture.
 			</p>
-			<a
-				href="/tools/rating-estimator"
-				class="block rounded-xl bg-white p-6 shadow-md hover:shadow-lg border border-zinc-200"
-			>
-				<p class="text-sm font-semibold text-lime-700 uppercase tracking-wide">Skill snapshot</p>
-				<h2 class="text-2xl font-bold mt-1">Pickleball rating estimator</h2>
-				<p class="mt-2 text-zinc-700">
-					Ten rec-court questions. A 2.0–4.5 number for open play and tournament self-entry. Not DUPR. Takes ~60–90 seconds.
-				</p>
-			</a>
+			<div class="flex flex-col gap-4">
+				<a
+					href="/tools/rating-estimator"
+					class="block rounded-xl bg-white p-6 shadow-md hover:shadow-lg border border-zinc-200"
+				>
+					<p class="text-sm font-semibold text-lime-700 uppercase tracking-wide">Skill snapshot</p>
+					<h2 class="text-2xl font-bold mt-1">Pickleball rating estimator</h2>
+					<p class="mt-2 text-zinc-700">
+						Ten rec-court questions. A 2.0–4.5 number for open play and tournament self-entry. Not DUPR. Takes ~60–90 seconds.
+					</p>
+				</a>
+				<a
+					href="/tools/lead-tape"
+					class="block rounded-xl bg-white p-6 shadow-md hover:shadow-lg border border-zinc-200"
+				>
+					<p class="text-sm font-semibold text-lime-700 uppercase tracking-wide">Paddle recipe</p>
+					<h2 class="text-2xl font-bold mt-1">Lead tape calculator</h2>
+					<p class="mt-2 text-zinc-700">
+						Seven questions. A clock-face recipe for where to put weight. Not a physics sim. Takes ~60–90 seconds.
+					</p>
+				</a>
+			</div>
 		</main>
 	</Container>
 </Layout>

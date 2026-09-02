@@ -1,0 +1,95 @@
+---
+import type { LeadTapeQuestion } from '../../lib/tools/leadTape';
+import QuizProgress from './QuizProgress.astro';
+
+interface Props {
+	questions: LeadTapeQuestion[];
+}
+
+const { questions } = Astro.props;
+---
+
+<div data-lead-tape-root class="flex flex-col gap-6">
+	<QuizProgress current={1} total={questions.length} />
+	<p data-quiz-error class="hidden rounded-md bg-red-50 px-3 py-2 text-sm text-red-800" role="alert"></p>
+	{questions.map((question, index) => (
+		<fieldset
+			data-quiz-question
+			data-question-id={question.id}
+			data-question-kind={question.kind}
+			class:list={['min-h-[18rem]', index === 0 ? '' : 'hidden']}
+		>
+			<legend class="mb-4 text-xl md:text-2xl font-bold text-zinc-900 focus:outline-none focus:ring-2 focus:ring-lime-400 rounded" tabindex="-1">
+				{question.prompt}
+			</legend>
+			{question.kind === 'weight' ? (
+				<div>
+					<p class="text-4xl md:text-5xl font-bold text-zinc-900 tabular-nums" data-weight-readout>
+						{question.defaultValue.toFixed(1)} oz
+					</p>
+					<input
+						class="mt-6 w-full accent-lime-500"
+						type="range"
+						name={`quiz-${question.id}`}
+						min={question.min}
+						max={question.max}
+						step={question.step}
+						value={question.defaultValue}
+						data-weight-slider
+						aria-valuemin={question.min}
+						aria-valuemax={question.max}
+						aria-valuenow={question.defaultValue}
+						aria-label={question.prompt}
+					/>
+					<div class="mt-2 flex justify-between text-sm text-zinc-500">
+						<span>{question.min.toFixed(1)} oz</span>
+						<span>{question.max.toFixed(1)} oz</span>
+					</div>
+					<p class="mt-4 text-sm text-zinc-600">{question.note}</p>
+				</div>
+			) : (
+				<div class="flex flex-col gap-2" role="radiogroup" aria-label={question.prompt}>
+					{question.options.map((option) => (
+						<label class="flex cursor-pointer items-start gap-3 rounded-lg border-2 border-zinc-200 bg-white px-3 py-3 has-[:checked]:border-lime-400 has-[:checked]:bg-lime-50 hover:border-zinc-400">
+							<input
+								class="mt-1 accent-lime-500"
+								type="radio"
+								name={`quiz-${question.id}`}
+								value={option.value}
+							/>
+							<span class="text-base md:text-lg text-zinc-800">{option.label}</span>
+						</label>
+					))}
+				</div>
+			)}
+		</fieldset>
+	))}
+	<div class="flex justify-between gap-3">
+		<button
+			type="button"
+			data-quiz-back
+			class="px-4 py-2 rounded-lg border-2 border-zinc-300 bg-white font-semibold text-zinc-800 hover:border-zinc-400 disabled:cursor-not-allowed disabled:opacity-40"
+			disabled
+		>
+			Back
+		</button>
+		<button
+			type="button"
+			data-quiz-next
+			class="px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500"
+		>
+			Next
+		</button>
+	</div>
+</div>
+
+<script>
+	import { bindLeadTapeQuiz } from '../../lib/tools/leadTapeQuiz';
+
+	document.querySelectorAll('[data-lead-tape-root]').forEach((node) => {
+		if (!(node instanceof HTMLElement)) return;
+		if (node.dataset.quizBound === 'true') return;
+		node.dataset.quizBound = 'true';
+		bindLeadTapeQuiz(node);
+	});
+</script>
