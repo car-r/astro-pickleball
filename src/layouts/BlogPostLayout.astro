@@ -1,7 +1,9 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
-import { DEFAULT_OG_IMAGE, SITE_URL } from "../config";
+import Footer from "../components/Footer.astro";
+import { AUTHOR_NAME, AUTHOR_PATH, DEFAULT_OG_IMAGE, SITE_URL } from "../config";
+import { articleJsonLd, faqsForSlug, faqPageJsonLd, withPageJsonLd } from "../utils/jsonld";
 
 interface BlogFrontmatter {
 	title: string;
@@ -31,38 +33,35 @@ const toIsoDate = (value?: string) => {
 	return Number.isNaN(parsed.valueOf()) ? undefined : parsed.toISOString();
 };
 
-const articleJsonLd: Record<string, unknown> = {
-	'@context': 'https://schema.org',
-	'@type': 'Article',
-	headline: title,
-	description,
-	image: imageURL.href,
-	author: {
-		'@type': 'Organization',
-		name: 'Pickleballr',
-		url: SITE_URL,
-	},
-	publisher: {
-		'@type': 'Organization',
-		name: 'Pickleballr',
-		url: SITE_URL,
-	},
-	mainEntityOfPage: {
-		'@type': 'WebPage',
-		'@id': canonicalURL.href,
-	},
-};
-
 const datePublished = toIsoDate(pubDate);
 const dateModified = toIsoDate(updatedDate) || datePublished;
-if (datePublished) articleJsonLd.datePublished = datePublished;
-if (dateModified) articleJsonLd.dateModified = dateModified;
+
+const slug = Astro.url.pathname.replace(/\/$/, '').split('/').pop() ?? '';
+const faqs = faqsForSlug(slug);
+
+const article = articleJsonLd({
+	title,
+	description,
+	image: imageURL.href,
+	canonical: canonicalURL.href,
+	datePublished,
+	dateModified,
+});
+
+const jsonLd = withPageJsonLd(
+	faqs ? [article, faqPageJsonLd(faqs)] : [article],
+	[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Blog', url: `${SITE_URL}/blog` },
+		{ name: title, url: canonicalURL.href },
+	],
+);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <BaseHead title={title} description={description} image={ogImage} type="article" jsonLd={articleJsonLd} />
+        <BaseHead title={title} description={description} image={ogImage} type="article" jsonLd={jsonLd} />
     </head>
     <body class="bg-zinc-100">
         <Header />
@@ -78,11 +77,15 @@ if (dateModified) articleJsonLd.dateModified = dateModified;
 					/>
 				)}
                 <h1 class="text-2xl md:text-4xl font-bold " style="margin: 0">{title}</h1>
+                <p class="text-stone-700" style="margin: 0.5rem 0 0">
+					By <a href={AUTHOR_PATH}>{AUTHOR_NAME}</a>
+				</p>
                 {pubDate && <time class=" text-stone-700">{pubDate}</time>}
 				{updatedDate && <div class="text-stone-500 ">Last updated on <time>{updatedDate}</time></div>}
                 <slot />
             </article>
         </main>
+        <Footer />
     </body>
 </html>
 

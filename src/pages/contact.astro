@@ -1,0 +1,29 @@
+---
+import Container from '../layouts/Container.astro';
+import Layout from '../layouts/Layout.astro';
+import { AUTHOR_TWITTER, SITE_URL } from '../config';
+---
+
+<Layout
+	title="Contact Pickleballr"
+	description="Contact Pickleballr on Twitter @pickleballrio. We do not have a contact form or public email yet."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Contact', url: `${SITE_URL}/contact` },
+	]}
+>
+	<Container>
+		<main class="py-16 max-w-3xl">
+			<h1 class="text-3xl md:text-5xl font-bold mb-6">Contact</h1>
+			<div class="text-base md:text-xl flex flex-col gap-4">
+				<p>
+					The best way to reach Pickleballr right now is Twitter:
+					<a href={AUTHOR_TWITTER} class="text-green-600 underline hover:text-pink-500">@pickleballrio</a>.
+				</p>
+				<p>
+					We do not have a contact form or a public email yet. When we add one, it will be listed here.
+				</p>
+			</div>
+		</main>
+	</Container>
+</Layout>

@@ -57,7 +57,7 @@ If you’re looking for a paddle that is a top seller with a large amount of rev
 
 ## Selkirk SLK Halo Control XL
 
-The SLK Halo Pickleball paddles always manage to make an appearance on different <a href="/blog/best-pickleball-paddles-2023">best pickleball paddle</a> lists, and for good reason. It is reasonably priced, available in different configurations, produces good spin and is very durable.
+The SLK Halo Pickleball paddles always manage to make an appearance on different <a href="/blog/best-pickleball-paddles-2026">best pickleball paddle</a> lists, and for good reason. It is reasonably priced, available in different configurations, produces good spin and is very durable.
 
 We love the Selkirk SLK Halo Control XL for beginners because it is a paddle you can grow into. The paddle will feel softer than your typical beginner paddle, but after a few games you’ll get used to the extra touch and feel the paddle provides. As your game starts to improve, you’ll also figure out that you can hit the ball harder and with more spin while keeping the ball in the court.
 

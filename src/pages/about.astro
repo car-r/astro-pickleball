@@ -1,18 +1,23 @@
 ---
 import Container from "../layouts/Container.astro";
 import Layout from "../layouts/Layout.astro"
+import { SITE_URL } from "../config";
 ---
 
 
 
 <Layout
     title="About Pickleballr | Pickleball Guides and Reviews"
-    description="Pickleballr covers pickleball equipment, paddle reviews, strategy, and technique for new and experienced players."
+    description="Pickleballr helps 2.5–4.0 rec players choose gear and win more rec and tournament points through evergreen education and living gear pages."
+    breadcrumbs={[
+        { name: 'Home', url: SITE_URL },
+        { name: 'About', url: `${SITE_URL}/about` },
+    ]}
     jsonLd={{
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
         name: 'About Pickleballr',
-        description: 'Pickleballr covers pickleball equipment, paddle reviews, strategy, and technique for new and experienced players.',
+        description: 'Pickleballr helps 2.5–4.0 rec players choose gear and win more rec and tournament points through evergreen education and living gear pages.',
         url: 'https://www.pickleballr.io/about',
     }}
 >
@@ -27,19 +32,18 @@ import Layout from "../layouts/Layout.astro"
             </section>
         </div>
         <section>
-            <div class="text-base md:text-xl flex flex-col gap-4">
-                <p>Pickleballr is your source for everything pickleball. We cover the latest equipment and paddle reviews 
-                    as well as in-depth game strategy and technique. Whether you're a seasoned player or just getting started,
-                    you'll find great information to help you improve your game and have even more fun on the court.  
+            <div class="text-base md:text-xl flex flex-col gap-4 pb-16">
+                <p>
+                    Pickleballr helps 2.5–4.0 rec players choose gear and win more rec and tournament points.
+                    We focus on three things: evergreen education, living gear pages, and one tool later.
                 </p>
                 <p>
-                    Our team of former tennis players have learned to love the game of pickleball and everything it has to offer.
-                    We're excited to share our knowledge and insights through blog posts, articles, and product reviews. 
-                    Whether you're looking to upgrade your paddle, learn a new technique, or stay up-to-date on the latest 
-                    news in the pickleball world, you'll find it all right here on Pickleballr.
+                    Carson Richter, a rec and tournament pickleball writer and former tennis player based in Scottsdale,
+                    writes the site. We are former tennis players who learned to love pickleball and want to share
+                    what actually helps on the rec court — paddle reviews, strategy, and technique.
                 </p>
                 <p>
-                    We're passionate about pickleball and want to help you improve your game!  
+                    Read more about Carson on the <a href="/authors/carson-richter" class="text-green-600 underline hover:text-pink-500">author page</a>.
                 </p>
             </div>
         </section>

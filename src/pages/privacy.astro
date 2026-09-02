@@ -1,0 +1,39 @@
+---
+import Container from '../layouts/Container.astro';
+import Layout from '../layouts/Layout.astro';
+import { SITE_URL } from '../config';
+---
+
+<Layout
+	title="Privacy Policy | Pickleballr"
+	description="Pickleballr is a static blog. We do not run accounts. This page covers hosting logs and future analytics."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Privacy', url: `${SITE_URL}/privacy` },
+	]}
+>
+	<Container>
+		<main class="py-16 max-w-3xl">
+			<h1 class="text-3xl md:text-5xl font-bold mb-6">Privacy</h1>
+			<div class="text-base md:text-xl flex flex-col gap-4">
+				<p>
+					Pickleballr is a static blog based in Arizona (Phoenix area). We do not run user accounts,
+					and we do not ask you to create a login.
+				</p>
+				<p>
+					The site is hosted on Vercel. Like most hosts, Vercel may keep server logs (for example IP
+					address, requested URL, and user agent) to operate and protect the service.
+				</p>
+				<p>
+					If we add analytics later, it will be to understand which pages help rec players — not to
+					build profiles. We will update this page if that happens.
+				</p>
+				<p>
+					Questions? Reach us on Twitter
+					<a href="https://twitter.com/pickleballrio" class="text-green-600 underline hover:text-pink-500">@pickleballrio</a>
+					until we publish an email.
+				</p>
+			</div>
+		</main>
+	</Container>
+</Layout>
