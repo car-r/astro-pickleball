@@ -1,7 +1,11 @@
 ---
-const {featuredPost, tag, pubDate, heroImage, title } = Astro.props
-// const { post } = Astro.props
+import type { BlogPost } from '../utils/blogPosts';
 
+interface Props {
+	featuredPost: BlogPost;
+}
+
+const { featuredPost } = Astro.props
 ---
 
 <div class="py-6 px-6 rounded-lg my-6 bg-lime-400 overflow-hidden">
@@ -27,7 +31,7 @@ const {featuredPost, tag, pubDate, heroImage, title } = Astro.props
                 </div>               
             </div>
             <div class="flex gap-2 mb-4">
-                {featuredPost.frontmatter.tags.map((tag: any) => (
+                {(featuredPost.frontmatter.tags ?? []).map((tag) => (
                     <p class="text-xs text-zinc-900 bg-pink-400 rounded-md py-1 px-3">{tag}</p>
                 ))}
             </div>

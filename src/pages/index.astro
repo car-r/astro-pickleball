@@ -2,10 +2,9 @@
 import FeaturedPostCard from '../components/FeaturedPostCard.astro';
 import PostCard from '../components/PostCard.astro';
 import Layout from '../layouts/Layout.astro';
+import { getBlogPosts } from '../utils/blogPosts';
 
-const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
-    (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
-);
+const posts = getBlogPosts();
 
 const featuredPost = posts[0]
 

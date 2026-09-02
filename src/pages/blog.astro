@@ -1,12 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getBlogPosts } from '../utils/blogPosts';
 import Container from '../layouts/Container.astro';
 import PostCard from '../components/PostCard.astro';
 
-// Use Astro.glob() to fetch all posts, and then sort them by date.
-const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
-	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
-);
+// Load all posts, then sort them by date.
+const posts = getBlogPosts();
 ---
 
 <Layout
@@ -18,7 +17,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			<section class="py-10">
 				<ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
 					{posts.map((post) => (
-						<PostCard post={post} tag={post.frontmatter.tag} description={post.frontmatter.description} title={post.frontmatter.title}/>
+						<PostCard post={post} />
 					))}
 				</ul>
 			</section>

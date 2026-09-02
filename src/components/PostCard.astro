@@ -1,7 +1,11 @@
 ---
-const { post } = Astro.props
-// const { post } = Astro.props
+import type { BlogPost } from '../utils/blogPosts';
 
+interface Props {
+	post: BlogPost;
+}
+
+const { post } = Astro.props
 ---
 
 <div class="flex" >
@@ -11,15 +15,12 @@ const { post } = Astro.props
         </a>
         <div class="flex flex-col p-4 ">
             <div class="flex gap-2 mb-4">
-                {post.frontmatter.tags.map((tag: any) => (
+                {(post.frontmatter.tags ?? []).map((tag) => (
                     <p class="text-xs text-zinc-900 bg-lime-400 rounded-md py-1 px-3">{tag}</p>
                 ))}
             </div>
             <a href={post.url} class="text-xl font-bold hover:text-pink-400">{post.frontmatter.title}</a>
             <div class="flex gap-3 items-center pb-3">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
-                </svg> -->
                 <div class="text-sm font-light text-zinc-600">
                     <time datetime={post.frontmatter.pubDate} class="">
                         {new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
