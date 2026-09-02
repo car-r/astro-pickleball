@@ -18,9 +18,5 @@ export default defineConfig({
       status: 301,
       destination: '/blog/selkirk-vanguard-air-power-invikta-review',
     },
-    '/blog/best-pickleball-paddles-2023': {
-      status: 301,
-      destination: '/blog/best-pickleball-paddles-2026',
-    },
   },
 });

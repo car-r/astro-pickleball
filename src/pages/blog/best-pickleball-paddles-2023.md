@@ -1,26 +1,25 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
-title: "Best pickleball paddles for 2026 (rec player guide)"
-description: "A rec player guide to choosing a pickleball paddle. Written for 2.5–4.0 players looking for gear that helps win more rec and tournament points."
+title: "Best pickleball paddles we tested in 2023"
+description: "Archive of pickleball paddles we tested in 2023. Historical rec-player picks from that year — not current 2026 rankings. See the living 2026 guide for how we shop today."
 pubDate: "Nov 2 2022"
-updatedDate: "Sep 2 2026"
 heroImage: "/images/best-pickleball-paddles-2023.jpg"
-featured: true
+featured: false
 readTime: '3'
 draft: false
 tags: 
   - "review"
 ---
 
-Are you a 2.5–4.0 rec player shopping for a pickleball paddle? This guide covers paddles we have tested so you can choose gear that helps you win more rec and tournament points.
+This is an archive of the pickleball paddles we tested in 2023. These were our rec-player picks that year — they are not current 2026 rankings. For the living rec-player guide, see [Best pickleball paddles for 2026](/blog/best-pickleball-paddles-2026).
 
-Individual paddle reviews on this list were last tested in 2022–2023. We will update this hub as paddles are retested. It is not a new 2026 ranking and does not add untested models. For the original roundup from that testing year, see the [2023 paddle archive](/blog/best-pickleball-paddles-2023).
+Are you in the market for a new pickleball paddle? This post covers the paddles we tested and recommended in 2023. Whether you were a beginner or an experienced player, we took skill level and budget into account.
 
-## Our top pickleball paddle picks
+## Our Top Pickleball Paddle Picks for 2023
 
 - **Best Overall Pickleball Paddle:** <a target="_blank" href="https://joolausa.com/ben-johns-hyperion-cfs-16-swift-pickleball-paddle/">JOOLA Hyperion CFS 16 Swift Pickleball Paddle</a>
 - **Best Budget Pickleball Paddle:** <a target="_blank" href="https://www.selkirk.com/collections/paddles/products/slk-halo?variant=39964829253734">Selkirk SLK Halo Control XL</a>
-- **Best Pickleball Paddle for Spin:** <a target="_blank" href="https://www.selkirk.com/products/vanguard-air-invikta?variant=39774039375974">Selkirk Vanguard Power Air Invikta</a>
+- **Best Pickleball Paddle for Spin:** <a target="_blank" href="https://www.selkirk.com/products/vanguard-air-invikta?variant=39774039375974">Selkirk Vangaurd Power Air Invikta</a>
 - **Best Pickleball Paddle for Power:** <a target="_blank" href="https://joolausa.com/solaire-cfs-14-swift-pickleball-paddle/">JOOLA Solaire CFS 14 Swift Pickleball Paddle</a>
 - **Best Pickleball Paddle for Beginners:** <a target="_blank" href="https://www.head.com/en_US/radical-elite-226032.html">HEAD Radical Elite Pickleball Paddle</a>
 - **Best Pickleball Paddle for Intermediate Players:** <a target="_blank" href="https://www.selkirk.com/products/slk-halo?_pos=1&_sid=23de3ad54&_ss=r&variant=39964829188198">Selkirk SLK Halo XL Power</a>
@@ -56,7 +55,7 @@ The best pickleball paddle for spin is the Selkirk Vanguard Power Air Invikta. P
 
 While the Vanguard Power Air Invitka is relatively expensive, it also has a number of unique features. The edgeless aerodynamic design includes an air dynamic throat with throat-flex for additional power and a flexfoam perimeter for more durability and a generous sweet spot. Some players don't care for the hole in the throat area, especially if you find your index finger wandering to the back of the paddle.
 
-Weight comes in between 7.7 - 8.1 oz and overall length of 16 1/2" with the elongated design and paddle. The Vanguard Power Air Invikta might be better for more advanced or intermediate players as the power can be difficult to control. This might also make for a great paddle for  tennis players who are picking up pickleball and already have decent touch and feel. You can learn more about this paddle in our full <a href="/blog/selkirk-vanguard-air-power-invikta-review">Selkirk Vanguard Air Power Invikta Review</a>.
+Weight comes in between 7.7 - 8.1 oz and overall length of 16 1/2" with the elongated design and paddle. The Vanguard Power Air Invikta might be better for more advanced or intermediate players as the power can be difficult to control. This might also make for a great paddle for  tennis players who are picking up pickleball and already have decent touch and feel. 
 
 
 ## Best Pickleball Paddle for Power
