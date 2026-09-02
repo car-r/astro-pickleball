@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { getBlogPosts } from '../utils/blogPosts';
 import Container from '../layouts/Container.astro';
 import PostCard from '../components/PostCard.astro';
+import { SITE_URL } from '../config';
 
 // Load all posts, then sort them by date.
 const posts = getBlogPosts();
@@ -10,7 +11,11 @@ const posts = getBlogPosts();
 
 <Layout
 	title="Pickleball Blog | Pickleballr"
-	description="Pickleball articles on rules, paddle reviews, ratings, serving, and strategy from Pickleballr."
+	description="Pickleball articles on rules, paddle reviews, ratings, serving, and strategy from Pickleballr — written for 2.5–4.0 rec players."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Blog', url: `${SITE_URL}/blog` },
+	]}
 >
 	<Container>
 		<main>

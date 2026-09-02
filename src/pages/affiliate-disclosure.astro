@@ -1,0 +1,30 @@
+---
+import Container from '../layouts/Container.astro';
+import Layout from '../layouts/Layout.astro';
+import { SITE_URL } from '../config';
+---
+
+<Layout
+	title="Affiliate Disclosure | Pickleballr"
+	description="Pickleballr reviews may include affiliate links. We may earn a commission if you buy through those links. Opinions are our own."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Affiliate disclosure', url: `${SITE_URL}/affiliate-disclosure` },
+	]}
+>
+	<Container>
+		<main class="py-16 max-w-3xl">
+			<h1 class="text-3xl md:text-5xl font-bold mb-6">Affiliate disclosure</h1>
+			<div class="text-base md:text-xl flex flex-col gap-4">
+				<p>
+					Some Pickleballr reviews and gear pages may include affiliate links. If you buy through one of
+					those links, we may earn a commission. It does not change the price you pay.
+				</p>
+				<p>
+					Opinions are our own. We write for 2.5–4.0 rec players choosing gear, not for a brand.
+					Prices, models, and availability change, so check the retailer for current details.
+				</p>
+			</div>
+		</main>
+	</Container>
+</Layout>

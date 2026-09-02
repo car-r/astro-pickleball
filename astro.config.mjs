@@ -13,4 +13,14 @@ export default defineConfig({
       filter: (page) => !page.includes('/indexOld'),
     }),
   ],
+  redirects: {
+    '/blog/selkirk-vangaurd-air-power-invikta-review': {
+      status: 301,
+      destination: '/blog/selkirk-vanguard-air-power-invikta-review',
+    },
+    '/blog/best-pickleball-paddles-2023': {
+      status: 301,
+      destination: '/blog/best-pickleball-paddles-2026',
+    },
+  },
 });

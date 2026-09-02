@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/BlogPostLayout.astro'
-title: "Selkirk Vangaurd Air Power Invikta Review"
+title: "Selkirk Vanguard Air Power Invikta Review"
 description: "Review of the paddle of choice for Pickleball Pro Tyson McGuffin!"
 pubDate: "Feb 25 2023"
 heroImage: "/images/selkirk-vanguard-air-power-invikta-review.jpg"
@@ -11,9 +11,9 @@ tags:
   - "review"
 ---
 
-The Selkirk SLK Vangaurd Air Power Invikta is the paddle of choice for Pickleball pro Tyson McGuffin, and for good reason. It is the top of the line power paddle from Selkirk and sports a unique design and incredible performance. It features many of the innovations that have made their debut in the Selkirk Labs Project 002 paddle. The Vanguard Air Power Invikta is a surprisingly stable yet powerful, spin happy and controllable paddle.  We’ll go over how the paddle played and who we’d recommend it to. 
+The Selkirk SLK Vanguard Air Power Invikta is the paddle of choice for Pickleball pro Tyson McGuffin, and for good reason. It is the top of the line power paddle from Selkirk and sports a unique design and incredible performance. It features many of the innovations that have made their debut in the Selkirk Labs Project 002 paddle. The Vanguard Air Power Invikta is a surprisingly stable yet powerful, spin happy and controllable paddle.  We’ll go over how the paddle played and who we’d recommend it to. 
 
-## Selkirk Vangaurd Air Power Invikta Pros and Cons
+## Selkirk Vanguard Air Power Invikta Pros and Cons
 ### PROS
 - Maximum spin for controlled drives
 - Large sweet spot and Polymer Honeycomb Core

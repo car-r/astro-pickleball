@@ -2,22 +2,35 @@
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import BaseHead from '../components/BaseHead.astro';
-import { SITE_DESCRIPTION } from '../config';
+import { SITE_DESCRIPTION, SITE_URL } from '../config';
+import { withPageJsonLd, type BreadcrumbItem } from '../utils/jsonld';
 
 export interface Props {
 	title: string;
 	description?: string;
 	image?: string;
 	jsonLd?: Record<string, unknown> | Record<string, unknown>[] | string;
+	breadcrumbs?: BreadcrumbItem[];
 }
 
-const { title, description = SITE_DESCRIPTION, image, jsonLd } = Astro.props;
+const {
+	title,
+	description = SITE_DESCRIPTION,
+	image,
+	jsonLd,
+	breadcrumbs = [{ name: 'Home', url: SITE_URL }],
+} = Astro.props;
+
+const combinedJsonLd =
+	typeof jsonLd === 'string'
+		? jsonLd
+		: withPageJsonLd(jsonLd, breadcrumbs);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} image={image} jsonLd={jsonLd} />
+		<BaseHead title={title} description={description} image={image} jsonLd={combinedJsonLd} />
 	</head>
 	<body class=" bg-zinc-100">
 		<Header />

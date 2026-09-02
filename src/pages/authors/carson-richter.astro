@@ -1,0 +1,46 @@
+---
+import Container from '../../layouts/Container.astro';
+import Layout from '../../layouts/Layout.astro';
+import {
+	AUTHOR_NAME,
+	AUTHOR_TWITTER,
+	AUTHOR_URL,
+	AUTHOR_WEBSITE,
+	SITE_URL,
+} from '../../config';
+import { personJsonLd } from '../../utils/jsonld';
+---
+
+<Layout
+	title="Carson Richter | Pickleballr author"
+	description="Carson Richter is a rec and tournament pickleball writer in Scottsdale. Former tennis player covering gear and strategy for 2.5–4.0 rec players."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: AUTHOR_NAME, url: AUTHOR_URL },
+	]}
+	jsonLd={personJsonLd()}
+>
+	<Container>
+		<main class="py-16 max-w-3xl">
+			<h1 class="text-3xl md:text-5xl font-bold mb-4">{AUTHOR_NAME}</h1>
+			<p class="text-zinc-600 mb-8">Scottsdale, Arizona</p>
+			<div class="text-base md:text-xl flex flex-col gap-4">
+				<p>
+					Carson Richter is a rec and tournament pickleball writer and former tennis player based in Scottsdale.
+					He writes Pickleballr to help 2.5–4.0 rec players choose gear and win more rec and tournament points.
+				</p>
+				<p>
+					The work on this site is evergreen education and living gear pages — with one tool planned later.
+					Carson is part of a team of former tennis players who learned to love pickleball and share what
+					helps on the rec court.
+				</p>
+				<p>
+					More about Carson at
+					<a href={AUTHOR_WEBSITE} class="text-green-600 underline hover:text-pink-500">{AUTHOR_WEBSITE.replace('https://', '')}</a>
+					and on Twitter
+					<a href={AUTHOR_TWITTER} class="text-green-600 underline hover:text-pink-500">@pickleballrio</a>.
+				</p>
+			</div>
+		</main>
+	</Container>
+</Layout>
