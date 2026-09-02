@@ -1,0 +1,272 @@
+---
+import Container from '../../layouts/Container.astro';
+import Layout from '../../layouts/Layout.astro';
+import FinderFlow from '../../components/tools/FinderFlow.astro';
+import FinderRelatedArticles from '../../components/tools/FinderRelatedArticles.astro';
+import { SITE_URL } from '../../config';
+import { faqPageJsonLd } from '../../utils/jsonld';
+import { FINDER_QUESTIONS, assertPaddleFinderSanity } from '../../lib/tools/paddleFinder';
+
+assertPaddleFinderSanity();
+
+const pageUrl = `${SITE_URL}/tools/paddle-finder`;
+const title = 'Pickleball paddle finder | Pickleballr';
+const description =
+	'Nine questions. Three picks. This is a rec-player match, not a lab ranking and not an official rating.';
+
+const faqs = [
+	{
+		question: 'Is this official?',
+		answer: 'No. This is an estimate and a match only — not an official rating and not a lab ranking.',
+	},
+	{
+		question: 'Are these tournament legal?',
+		answer:
+			'We default to USA Pickleball-legal models when you say you need that. Re-check equipment.usapickleball.org before an event.',
+	},
+	{
+		question: 'Why only three?',
+		answer: 'So you leave with a decision, not another list.',
+	},
+	{
+		question: 'How often is the list updated?',
+		answer: 'About twice a year.',
+	},
+];
+---
+
+<Layout
+	title={title}
+	description={description}
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Tools', url: `${SITE_URL}/tools` },
+		{ name: 'Paddle finder', url: pageUrl },
+	]}
+	jsonLd={[
+		{
+			'@type': 'WebPage',
+			name: 'Pickleball paddle finder',
+			description,
+			url: pageUrl,
+		},
+		faqPageJsonLd(faqs),
+	]}
+>
+	<Container>
+		<main class="py-10 md:py-16 max-w-3xl">
+			<nav class="mb-6 text-sm text-zinc-600" aria-label="Breadcrumb">
+				<ol class="flex flex-wrap gap-2">
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/">Home</a></li>
+					<li aria-hidden="true">›</li>
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/tools">Tools</a></li>
+					<li aria-hidden="true">›</li>
+					<li aria-current="page">Paddle finder</li>
+				</ol>
+			</nav>
+
+			<section id="finder-landing">
+				<h1 class="text-3xl md:text-5xl font-bold mb-4">Find a pickleball paddle in 60 seconds</h1>
+				<p class="text-base md:text-xl text-zinc-800 mb-3">
+					Nine questions. Three picks. This is a rec-player match, not a lab ranking and not an official rating.
+				</p>
+				<p class="text-base md:text-lg font-semibold text-zinc-700 mb-8">Takes ~60–90 seconds.</p>
+				<button
+					id="start-finder"
+					type="button"
+					class="px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500"
+				>
+					Start the 9 questions
+				</button>
+
+				<div class="mt-12">
+					<FinderRelatedArticles />
+				</div>
+
+				<section class="mt-12" aria-labelledby="finder-faq-heading">
+					<h2 id="finder-faq-heading" class="text-xl font-bold mb-4">FAQ</h2>
+					<dl class="flex flex-col gap-6">
+						{faqs.map((faq) => (
+							<div>
+								<dt class="font-semibold text-zinc-900">{faq.question}</dt>
+								<dd class="mt-1 text-zinc-700">
+									{faq.question === 'Are these tournament legal?' ? (
+										<>
+											We default to USA Pickleball-legal models when you say you need that. Re-check
+											{' '}
+											<a
+												class="text-green-600 underline hover:text-pink-500"
+												href="https://equipment.usapickleball.org"
+												rel="noopener noreferrer"
+											>
+												equipment.usapickleball.org
+											</a>
+											{' '}
+											before an event.
+										</>
+									) : (
+										faq.answer
+									)}
+								</dd>
+							</div>
+						))}
+					</dl>
+				</section>
+			</section>
+
+			<section id="finder-quiz" hidden>
+				<FinderFlow questions={FINDER_QUESTIONS} />
+			</section>
+
+			<section id="finder-results" hidden>
+				<div id="finder-matches"></div>
+				<p id="finder-empty" class="hidden text-lg text-zinc-800"></p>
+				<p id="finder-after" class="hidden mt-8 text-zinc-800">
+					These three fit the answers you just gave. Read the
+					{' '}
+					<a class="text-green-600 underline hover:text-pink-500" href="/blog/best-pickleball-paddles-2026">
+						2026 hub
+					</a>
+					{' '}
+					if you want the full shortlist.
+				</p>
+
+				<div class="mt-10">
+					<FinderRelatedArticles />
+				</div>
+
+				<button
+					id="finder-restart"
+					type="button"
+					class="mt-10 px-4 py-2 rounded-lg border-2 border-zinc-300 bg-white font-semibold text-zinc-800 hover:border-zinc-400"
+				>
+					Start over
+				</button>
+			</section>
+		</main>
+	</Container>
+</Layout>
+
+<script>
+	import catalog from '../../lib/tools/catalog.json';
+	import { rankPaddles, type FinderCompleteDetail, type RankedPaddle } from '../../lib/tools/paddleFinder';
+	import type { Paddle } from '../../lib/tools/types';
+
+	const landing = document.getElementById('finder-landing');
+	const quiz = document.getElementById('finder-quiz');
+	const results = document.getElementById('finder-results');
+	const quizRoot = document.querySelector('[data-finder-root]');
+
+	const CARD_LABELS = ['Best match', 'Different shape / feel', 'Value or step-up'];
+
+	function show(view: 'landing' | 'quiz' | 'results') {
+		if (landing) landing.hidden = view !== 'landing';
+		if (quiz) quiz.hidden = view !== 'quiz';
+		if (results) results.hidden = view !== 'results';
+		window.scrollTo(0, 0);
+	}
+
+	function cap(s: string) {
+		return s.charAt(0).toUpperCase() + s.slice(1);
+	}
+
+	function specLine(label: string, value: string) {
+		const dt = document.createElement('dt');
+		dt.className = 'text-sm text-zinc-500';
+		dt.textContent = label;
+		const dd = document.createElement('dd');
+		dd.className = 'font-semibold text-zinc-900';
+		dd.textContent = value;
+		const wrap = document.createElement('div');
+		wrap.append(dt, dd);
+		return wrap;
+	}
+
+	function renderCard(row: RankedPaddle, index: number) {
+		const { paddle, why } = row;
+		const article = document.createElement('article');
+		article.className = 'rounded-xl bg-white p-5 shadow-md border border-zinc-200';
+
+		const label = document.createElement('p');
+		label.className = 'text-sm font-semibold uppercase tracking-wide text-lime-700';
+		label.textContent = CARD_LABELS[index] ?? '';
+
+		const name = document.createElement('h2');
+		name.className = 'text-2xl font-bold mt-1';
+		name.textContent = paddle.name;
+
+		const brandPrice = document.createElement('p');
+		brandPrice.className = 'mt-1 text-zinc-700';
+		brandPrice.textContent = `${paddle.brand} · $${paddle.price}`;
+
+		const specs = document.createElement('dl');
+		specs.className = 'mt-4 grid grid-cols-2 gap-3';
+		specs.append(
+			specLine('Shape', cap(paddle.shape)),
+			specLine('Core', `${paddle.coreMm} mm`),
+			specLine('Core type', cap(paddle.coreType)),
+			specLine('Weight', `${paddle.weightOz} oz`),
+		);
+
+		const whyEl = document.createElement('p');
+		whyEl.className = 'mt-4 text-zinc-800';
+		whyEl.textContent = why;
+
+		const cta = document.createElement('a');
+		cta.className = 'mt-5 inline-block px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500';
+		cta.href = paddle.url;
+		cta.textContent = 'Why we picked this';
+
+		const secondary = document.createElement('p');
+		secondary.className = 'mt-3 text-sm text-zinc-600';
+		secondary.textContent = paddle.brand;
+
+		article.append(label, name, brandPrice, specs, whyEl, cta, secondary);
+		return article;
+	}
+
+	function renderResults(rows: RankedPaddle[]) {
+		const list = document.getElementById('finder-matches');
+		const empty = document.getElementById('finder-empty');
+		const after = document.getElementById('finder-after');
+
+		if (list) list.replaceChildren();
+
+		if (!rows.length) {
+			if (empty) {
+				empty.textContent =
+					'Nothing in this catalog fits that budget and those filters. Raise budget or turn off two-hand / arm-care and run it again.';
+				empty.classList.remove('hidden');
+			}
+			after?.classList.add('hidden');
+			return;
+		}
+
+		empty?.classList.add('hidden');
+		if (empty) empty.textContent = '';
+		after?.classList.remove('hidden');
+
+		const stack = document.createElement('div');
+		stack.className = 'flex flex-col gap-4';
+		rows.forEach((row, i) => stack.appendChild(renderCard(row, i)));
+		list?.appendChild(stack);
+	}
+
+	document.getElementById('start-finder')?.addEventListener('click', () => {
+		show('quiz');
+		const legend = quizRoot?.querySelector('legend');
+		if (legend instanceof HTMLElement) legend.focus();
+	});
+
+	document.getElementById('finder-restart')?.addEventListener('click', () => {
+		quizRoot?.dispatchEvent(new Event('quizreset'));
+		show('landing');
+	});
+
+	quizRoot?.addEventListener('quizcomplete', (event) => {
+		const detail = (event as CustomEvent<FinderCompleteDetail>).detail;
+		const { results: matches } = rankPaddles(catalog.paddles as Paddle[], detail.answers);
+		renderResults(matches);
+		show('results');
+	});
+</script>
