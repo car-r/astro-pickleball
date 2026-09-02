@@ -1,0 +1,19 @@
+---
+interface Props {
+	compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<aside
+	class:list={[
+		'rounded-lg border-l-4 border-lime-400 bg-white px-4 py-3 text-zinc-800',
+		compact ? 'text-sm' : 'text-sm md:text-base',
+	]}
+	role="note"
+>
+	<p>
+		This is a skill snapshot for rec play and tournament self-entry. It is not DUPR, not UTR-P, and not an official rating. Most players should treat the number as ±0.25 and start at the lower end of a tournament bracket.
+	</p>
+</aside>

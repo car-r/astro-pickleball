@@ -1,0 +1,67 @@
+---
+import type { QuizQuestion } from '../../lib/tools/quiz';
+import QuizProgress from './QuizProgress.astro';
+
+interface Props {
+	questions: QuizQuestion[];
+}
+
+const { questions } = Astro.props;
+---
+
+<div data-quiz-root class="flex flex-col gap-6">
+	<QuizProgress current={1} total={questions.length} />
+	<p data-quiz-error class="hidden rounded-md bg-red-50 px-3 py-2 text-sm text-red-800" role="alert"></p>
+	{questions.map((question, index) => (
+		<fieldset
+			data-quiz-question
+			data-question-id={question.id}
+			class:list={['min-h-[18rem]', index === 0 ? '' : 'hidden']}
+		>
+			<legend class="mb-4 text-xl md:text-2xl font-bold text-zinc-900 focus:outline-none focus:ring-2 focus:ring-lime-400 rounded" tabindex="-1">
+				{question.prompt}
+			</legend>
+			<div class="flex flex-col gap-2" role="radiogroup" aria-label={question.prompt}>
+				{question.options.map((option) => (
+					<label class="flex cursor-pointer items-start gap-3 rounded-lg border-2 border-zinc-200 bg-white px-3 py-3 has-[:checked]:border-lime-400 has-[:checked]:bg-lime-50 hover:border-zinc-400">
+						<input
+							class="mt-1 accent-lime-500"
+							type="radio"
+							name={`quiz-${question.id}`}
+							value={option.value.toFixed(1)}
+						/>
+						<span class="text-base md:text-lg text-zinc-800">{option.label}</span>
+					</label>
+				))}
+			</div>
+		</fieldset>
+	))}
+	<div class="flex justify-between gap-3">
+		<button
+			type="button"
+			data-quiz-back
+			class="px-4 py-2 rounded-lg border-2 border-zinc-300 bg-white font-semibold text-zinc-800 hover:border-zinc-400 disabled:cursor-not-allowed disabled:opacity-40"
+			disabled
+		>
+			Back
+		</button>
+		<button
+			type="button"
+			data-quiz-next
+			class="px-4 py-2 rounded-lg border-2 border-lime-400 bg-lime-400 font-semibold text-lime-900 hover:bg-lime-500 hover:border-lime-500"
+		>
+			Next
+		</button>
+	</div>
+</div>
+
+<script>
+	import { bindQuiz } from '../../lib/tools/quiz';
+
+	document.querySelectorAll('[data-quiz-root]').forEach((node) => {
+		if (!(node instanceof HTMLElement)) return;
+		if (node.dataset.quizBound === 'true') return;
+		node.dataset.quizBound = 'true';
+		bindQuiz(node);
+	});
+</script>

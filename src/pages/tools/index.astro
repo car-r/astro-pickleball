@@ -1,0 +1,40 @@
+---
+import Container from '../../layouts/Container.astro';
+import Layout from '../../layouts/Layout.astro';
+import { SITE_URL } from '../../config';
+---
+
+<Layout
+	title="Pickleball Tools | Pickleballr"
+	description="Rec-player tools from Pickleballr. Start with the rating estimator — a 2.0–4.5 skill snapshot. Not DUPR."
+	breadcrumbs={[
+		{ name: 'Home', url: SITE_URL },
+		{ name: 'Tools', url: `${SITE_URL}/tools` },
+	]}
+>
+	<Container>
+		<main class="py-16 max-w-3xl">
+			<nav class="mb-6 text-sm text-zinc-600" aria-label="Breadcrumb">
+				<ol class="flex flex-wrap gap-2">
+					<li><a class="text-green-600 underline hover:text-pink-500" href="/">Home</a></li>
+					<li aria-hidden="true">›</li>
+					<li aria-current="page">Tools</li>
+				</ol>
+			</nav>
+			<h1 class="text-3xl md:text-5xl font-bold mb-4">Tools</h1>
+			<p class="text-base md:text-xl text-zinc-700 mb-8">
+				Simple rec-player tools. No accounts. No email capture.
+			</p>
+			<a
+				href="/tools/rating-estimator"
+				class="block rounded-xl bg-white p-6 shadow-md hover:shadow-lg border border-zinc-200"
+			>
+				<p class="text-sm font-semibold text-lime-700 uppercase tracking-wide">Skill snapshot</p>
+				<h2 class="text-2xl font-bold mt-1">Pickleball rating estimator</h2>
+				<p class="mt-2 text-zinc-700">
+					Ten rec-court questions. A 2.0–4.5 number for open play and tournament self-entry. Not DUPR. Takes ~60–90 seconds.
+				</p>
+			</a>
+		</main>
+	</Container>
+</Layout>
