@@ -186,6 +186,33 @@ export const ARTICLE_FAQS: Record<string, FaqItem[]> = {
 				'Player ratings are important because they ensure that matches are fair and competitive. When players of similar skill levels compete against each other, the matches are more exciting and challenging. Ratings also help tournament organizers create balanced brackets.',
 		},
 	],
+	'best-pickleball-paddles-2026': [
+		{
+			question: 'Do I need a foam paddle in 2026?',
+			answer:
+				'No. Foam is common now, not required. A 16mm polymer widebody (Valkyrie, Pegasus, both JOOLA Pro V models) still plays well at rec. Buy foam if you want that plush pop and have the budget. Buy polymer if you want a known feel for less money, or you want the thicker LUXX control core.',
+		},
+		{
+			question: 'What paddle should I buy as my first upgrade from a kit?',
+			answer:
+				'SLK Valkyrie Widebody at $80, or the 11SIX24 Pegasus Jelly Bean 16mm at $90. Both are 16mm, wide, USAP, and forgiving. Demo if you can. If you cannot, buy the cheaper one and spend the difference on balls and court time.',
+		},
+		{
+			question: 'Can I use a UPA-A-only paddle at my rec tournament?',
+			answer:
+				'Usually no, if the event is USAP-sanctioned. Warping Point Neon is the clear example on this list: fine for open play, not fine for most amateur brackets. Check the sanctioning body on the flyer, then check equipment.usapickleball.org.',
+		},
+		{
+			question: 'Is a 14mm foam paddle better than 16mm?',
+			answer:
+				'It is different. 14mm foam (Black Opal, Barrage) feels denser. 16mm foam gives more cushion on touch shots. Rec default is 16mm. Move to 14mm after you know you leave 16mm drops short, not because a video called 14mm the meta.',
+		},
+		{
+			question: 'Which paddles on this list work for a two-handed backhand?',
+			answer:
+				'Primary pick: Boomstik Elongated (5.8"). Also workable: J2CR (5.5–6.0"), TKO-X 16mm (5.75"), Barrage longer-handle shapes, Pegasus and Vapor Power 2 (up to 5.75"), Valkyrie and Dauntless (5.6"), Omni (5.6–5.75"). Tight: LUXX, Scorpeus Pro V, Aura Pro, Loco, Prism Flash.',
+		},
+	],
 };
 
 export function faqsForSlug(slug: string): FaqItem[] | undefined {
