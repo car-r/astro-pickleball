@@ -3,6 +3,7 @@ layout: '../../layouts/BlogPostLayout.astro'
 title: "Best pickleball paddles for 2026 (rec player guide)"
 description: "Foam cores took over in 2026. Six rec-player winners, then the rest of an 18-paddle shortlist, then how to choose without a spec chart."
 pubDate: "Sep 2 2026"
+heroImage: "/images/best-pickleball-paddles-2026.jpg"
 featured: true
 readTime: '12'
 draft: false
