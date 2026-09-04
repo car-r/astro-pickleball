@@ -290,8 +290,8 @@ export type FinderCompleteDetail = {
 
 export function assertPaddleFinderSanity(): void {
   const paddles = catalogJson.paddles as Paddle[];
-  if (paddles.length !== 18) {
-    throw new Error(`catalog.paddles.length should be 18, got ${paddles.length}`);
+  if (paddles.length !== 13) {
+    throw new Error(`catalog.paddles.length should be 13, got ${paddles.length}`);
   }
   const leftover = paddles.filter((p) => /hyperion|halo/i.test(`${p.id} ${p.name} ${p.brand}`));
   if (leftover.length) {
